@@ -481,3 +481,7 @@ html, body {
   padding: 34px;
   font-weight: bold;
   font-family: sans-serif; }
+
+/* line 412, ../sass/base.scss */
+.logo span {
+  padding: 0 40%; }
