@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<!-- GRAPHS -->
+<meta content='TITULO' property='og:title'/>
+<meta content='URL' property='og:image'/>
+<meta property="og:site_name"content="TITULO LARGO" /> 
+<meta property="fb:admins"content="Matias Ochoa Payva | matias8adg@gmail.com" />
+<meta content='DESCRIPCION' property='og:description'/>
+<!-- GRAPHS -->
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

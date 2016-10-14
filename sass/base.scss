@@ -1,0 +1,398 @@
+// variables
+
+$clr_bs_top: #043b7b;
+$clr_bs_hdr: #f7f7f7;
+$clr_bs_menu: #f0f0f0;
+$clr_cont_vid: #e5e5e5;
+$clr_cont_carr: #1b1b1b;
+$clr_cont_scl: #5a8996;
+$clr_bs_ftr: #333333;
+$Fclr_titl: #fff;
+$Fclr_subtitl: #fff;
+$Fclr_txt: #043b7b;
+$bsColGrid1:100% /12;
+$bsColGrid2:100% /8;
+$bsColGrid3:100% /6;
+$margenGrilla1:100% /12;
+$margenGrilla2:100% /8;
+$margenGrilla3:100% /6;
+$maxWidth:100%;
+//colores_acordeon
+$dtClrBack:#333333;
+$dtClrBackActive:#424242;
+$dtClrFont:#fff;
+$dtClrTopline:#4E4E4E ;
+$dtClrBtmline:#141414;
+$ddClrBack:#F5F5F5;
+$ddClrFont:#fff;
+//rows
+$alto_minimo:250px;
+//menu
+$Fclr_menu_vivo:#8d141c;
+$Fclr_menu_contenidos:#0f335f;
+$Fclr_menu_grilla:#0188c8;
+$Fclr_menu_canal:#0f335f;
+$BckColor:#fff;
+//slider
+//ancho y alto del event del slider
+$eventw:227px;
+$eventh:375px;
+// fin variables
+
+/*///////////////////// 8aDG | D.G. Matias Ochoa Payva ///////////////////////*/
+/*-------------------------| matias8adg@gmail.com |---------------------------*/
+/*                                                                            */
+/*////////////////////////////////////////////////////////////////////////////*/
+
+/*--------------------------------| FUENTES |---------------------------------*/
+
+/*TITULOS*/
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+/*TEXTOS EN GRAL*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+
+/*---------------------------------| RESET |----------------------------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-family: sans-serif;
+    /*=========== Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, */
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*---------------| BORRA RECTANGULOS A LOS LINKS MOBILE |---------------------*/
+/* descomentar luego de compilar
+
+ a, a:active, a:focus {
+outline: none!important;
+-moz-outline-style: none!important;
+text-decoration: none;
+font-family: 'Open Sans', sans-serif;
+}
+
+  * {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); and
+-webkit-focus-ring-color: rgba(0, 0, 0, 0);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+*/
+
+/*---------------------------| Acordeon 8aDG |--------------------------------*/
+
+
+ *{ font-family: sans-serif; margin: 0;}
+dl{ margin: 0px auto; width: 100%; }
+dt, dd{ padding: 20px; }
+dt{ background: $dtClrBack; color:$dtClrFont; border-bottom: 1px solid $dtClrBtmline; border-top: 1px solid $dtClrTopline; cursor: pointer; }
+dd{ background: $ddClrBack; display: none; line-height: 1.6em;text-align: center;}
+dt.activo, dt:hover{ background: $dtClrBackActive; }
+dd:first-child{display: block;}
+dt:before{ content: "▸"; margin-right: 10px; }
+dt.activo:before{ content: "▾"; }
+
+
+/*-------------------------GridContainer 8aDG---------------------------------*/
+html ,body{ height: 100%; }
+
+.grid-container {
+        width: 100%; 
+        height: 100%;
+        max-width:$maxWidth;
+        background-color: rgba(255,0,0 ,0.2);
+        display: table;
+        clear:both;
+        margin: 0 auto;
+        padding: 0px;
+    }
+
+
+    /*-- our cleafix hack -- */ 
+    .row:before, 
+    .row:after {
+        content:"";
+          display: table;
+        clear:both;
+    }
+
+       .rowfixed:before,.rowfixed:before{
+        content:"";
+          display: table;
+        clear:both;
+        margin:0 $margenGrilla2;
+    }
+
+
+    [class*='col-'] {
+        float: left; 
+        min-height:1px; 
+        width: 16.66%;
+        /*-- our gutter -- */ 
+        /*background-color: $clr_bs_top;*/
+    }
+
+/*----------------------sistema de columnas 8aDG------------------------------*/
+
+    .col-1{ width: $bsColGrid3; }
+    .col-2{width: $bsColGrid3*2;}
+    .col-3{ width: $bsColGrid3*3;}
+    .col-4{ width: $bsColGrid3*4; }
+    .col-5{ width: $bsColGrid3*5; }
+    .col-6{  width: $bsColGrid3*6;}
+    .col-81{width: $bsColGrid2;}
+    .col-82{width: $bsColGrid2*2;}
+    .col-84{width: $bsColGrid2*4;}
+    .col-86{width: $bsColGrid2*6;}
+    .col-88{width: $bsColGrid2*8;}
+    .outline, .outline *{
+        outline: 1px solid #F6A1A1; 
+    }
+
+/*---------------------------| MENOS DE 800PX |-------------------------------*/
+
+    @media all and (max-width:800px){
+        .col-0{ width: 33.33%;}
+        .col-1{ width: 33.33%;}
+        .col-2{ width: 50%;        }
+        .col-3{ width: 83.33%;    }
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;      }
+ul li { width: 100%;      }
+        .row .col-2:last-of-type{
+            width: 100%; 
+        }
+
+        .row .col-5 ~ .col-1{
+            width: 100%; 
+        }
+.ch {display: block!important;}
+
+/*-----------------| contenido personalizado medium 8aDG |--------------------*/
+
+
+
+
+}
+
+/*----------------------------| MENOS DE 650PX |------------------------------*/
+
+    @media all and (max-width:650px){
+        .col-0{ width: 50%;     }
+        .col-1{ width: 100%;    }
+        .col-2{ width: 100%;    }
+        .col-3{ width: 100%;    }
+        .col-4{ width: 100%;    }
+        .col-5{ width: 100%;    }
+        .col-6{ width: 100%;    }
+        .col-ch{ width: 100%;   }
+        ul li { width: 100%!important;}
+
+/*--------------| MUESTRA SOLO EN RESOLUCIIONES GRANDES 8aDG |----------------*/
+
+.gd {display: none;}
+.ch {display:block!important;}
+
+/*-----------------| contenido personalizado mobile 8aDG |--------------------*/
+
+
+
+}
+/*-------------------| fin sistema de columnas 8aDG |-------------------------*/
+
+
+/*--------------------------| slider multi noticias|----------------------------*/
+.nav {
+position:relative;
+top: -50px;
+width: $eventw;
+height: 50px;
+text-align: center;
+background: #032e61;
+color: #fff;
+font:normal 400 1em 'PT Sans', sans-serif;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+padding: 0 15px;
+text-align: center;
+position: relative;
+bottom: 3px;
+}
+
+#left, #right{
+cursor: pointer;
+margin: 0 10px;
+font:normal 1.5em sans-serif;
+color: #fff;
+font-weight: 100;
+width: 2px;
+}
+
+#left{
+  text-align: left!important;
+}
+
+#right{
+  text-align: right!important;
+}
+
+#event_rotator{
+  width:$eventw;
+  height:$eventh;
+  position:relative;
+  overflow:hidden;
+}
+#slider{
+  position:absolute;
+  height:$eventh + 5px;
+  left:0; 
+  width:99999px;
+}
+.event{
+  color: #fff;
+  font:normal 400 1em 'PT Sans', sans-serif;
+  background:#043b7b;
+  float:left;
+  width:$eventw;
+  height:$eventh;
+}
+.event:nth-child(odd){
+ background:#0c4180;
+}
+
+.contenido {
+padding: 10px 10px;
+}
+
+.contenido p {
+  font-size: 0.75em;
+}
+.titulo_rot{
+  font-size: 1.2em;
+}
+.botones{
+  padding-top: 15px;
+}
+
+
+/*--------------------------| slider multi noticias|----------------------------*/
+
+.top{
+  background:$clr_bs_top ;
+min-height: 50px!important;
+}
+.hdr{
+  background:$clr_bs_hdr ;
+  min-height: 200px!important;
+}
+.menu{
+  background: $clr_bs_menu;
+  min-height: 50px!important;
+}
+.video{
+  background:$clr_cont_vid;
+  min-height: 380px!important;
+}
+.menu_carr{
+  background:$clr_cont_carr ;
+    min-height: 360px!important;
+}
+.social{
+  background:$clr_cont_scl ;
+    min-height: 400px!important;
+}
+.footer{
+  background:$clr_bs_ftr;
+    min-height: 300px!important;
+}
+.bottom {
+  background:$clr_bs_top;
+    min-height: 50px!important;
+}
+
+.der{float: right;}
+
+.logo{
+padding: 50px 0px;
+}
+
+.logo_uni{
+padding: 70px 0px;
+text-align: right;
+}
+
+.menu a{
+text-decoration: none;
+display: inline-block;
+padding: 20px 0;
+text-align: center;
+width: 100%;
+-webkit-transition: background-color 0.5s ease-out;
+-moz-transition: background-color 0.5s ease-out;
+-o-transition: background-color 0.5s ease-out;
+transition: background-color 0.5s ease-out;
+}
+
+.menu a:hover{
+background: $BckColor;
+}
+
+.vivo a{
+  color: $Fclr_menu_vivo;
+}
+
+.contenidos a{
+  color: $Fclr_menu_contenidos;
+}
+
+.grilla a{
+  color: $Fclr_menu_grilla;
+}
+
+.canal a{
+  color: $Fclr_menu_canal;
+}
+
+.cont_video{
+min-height: 380px;
+}

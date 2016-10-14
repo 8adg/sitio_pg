@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+    <div style="display: none;" id="caja-busca" class="col-6"><input type="text" id="input" placeholder="Introducí tu búsqueda . ;-)"></div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

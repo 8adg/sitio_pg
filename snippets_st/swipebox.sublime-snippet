@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+		
+<!-- imagen_individual -->
+<a href="big/image.jpg" class="swipebox" title="My Caption">
+<img src="small/image.jpg" alt="image">
+</a>
+<!-- galeria -->
+<a rel="gallery-1" href="big/image1.jpg" class="swipebox">
+	<img src="small/image1.jpg" alt="image">
+</a>
+<a rel="gallery-1" href="big/image2.jpg" class="swipebox">
+	<img src="small/image2.jpg" alt="image">
+</a>
+<!-- video -->
+<a class="swipebox-video" rel="vimeo" href="http://vimeo.com/29193046">My Videos</a>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
