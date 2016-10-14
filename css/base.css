@@ -507,20 +507,22 @@ html, body {
   background: #fff;
   text-align: left;
   color: #454545;
-  font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif;
+  font: normal italic 600 20px/150% 'Open Sans', Helvetica, sans-serif;
   padding: 1%;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
   -o-transition: background-color 1s ease-out;
-  transition: background-color 1s ease-out; }
+  transition: background-color 1s ease-out;
+  height: 73%;
+  font-size: 14px; }
 
-/* line 446, ../sass/base.scss */
+/* line 448, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 452, ../sass/base.scss */
+/* line 454, ../sass/base.scss */
 .item_add {
   font-family: 'oliviaUI', sans-serif;
   background-color: #004455;

@@ -435,12 +435,14 @@ left: 10px;
     background: #fff;
     text-align: left;
     color: rgb(69, 69, 69);
-    font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif;
+    font: normal italic 600 20px/150% 'Open Sans', Helvetica, sans-serif;
     padding: 1%;
      -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
     transition: background-color 1s ease-out;
+    height: 73%;
+    font-size: 14px;
 }
 
 .item_Quantity input {
