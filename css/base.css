@@ -487,3 +487,35 @@ html, body {
   position: relative;
   top: -35px;
   left: 10px; }
+
+/* line 418, ../sass/base.scss */
+.box_compra {
+  display: inline-flex;
+  height: 47px;
+  width: 163px; }
+
+/* line 424, ../sass/base.scss */
+.item_Quantity {
+  border: none;
+  width: 110px;
+  height: 45px;
+  background: #fff;
+  text-align: center;
+  color: #454545;
+  font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif; }
+
+/* line 434, ../sass/base.scss */
+.item_add {
+  font-family: 'oliviaUI', sans-serif;
+  background-color: #ff0082;
+  color: #fff;
+  display: block;
+  height: 36px;
+  width: 50px;
+  text-decoration: none;
+  font-size: 1.7em;
+  padding-top: 9px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out; }
