@@ -497,13 +497,13 @@ html, body {
 .box_compra {
   display: inline-flex;
   height: 47px;
-  width: 163px; }
+  width: 640px; }
 
 /* line 431, ../sass/base.scss */
 .item_Quantity {
   border: none;
-  width: 110px;
-  height: 45px;
+  width: 500px;
+  height: 47px;
   background: #fff;
   text-align: center;
   color: #454545;
