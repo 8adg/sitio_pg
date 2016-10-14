@@ -504,7 +504,6 @@ html, body {
 .item_Quantity {
   border: none;
   width: 500px;
-  height: 100%;
   background: #fff;
   text-align: left;
   color: #454545;
@@ -515,13 +514,13 @@ html, body {
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out; }
 
-/* line 447, ../sass/base.scss */
+/* line 446, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 453, ../sass/base.scss */
+/* line 452, ../sass/base.scss */
 .item_add {
   font-family: 'oliviaUI', sans-serif;
   background-color: #004455;
