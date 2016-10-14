@@ -503,7 +503,7 @@ html, body {
 .item_Quantity {
   border: none;
   width: 500px;
-  height: 47px;
+  height: 100%;
   background: #fff;
   text-align: left;
   color: #454545;
@@ -523,11 +523,10 @@ html, body {
   background-color: #004455;
   color: #fff;
   display: block;
-  height: 36px;
+  height: 100%;
   width: 50px;
   text-decoration: none;
   font-size: 1.7em;
-  padding-top: 9px;
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
