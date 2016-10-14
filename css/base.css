@@ -507,7 +507,7 @@ html, body {
   background: #fff;
   text-align: left;
   color: #454545;
-  font: normal italic 600 20px/150% 'Open Sans', Helvetica, sans-serif;
+  font: italic 20px/150% 'Open Sans', Helvetica, sans-serif;
   padding: 1%;
   -webkit-transition: background-color 1s ease-out;
   -moz-transition: background-color 1s ease-out;
