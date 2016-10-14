@@ -437,8 +437,11 @@ left: 10px;
     text-align: left;
     color: rgb(69, 69, 69);
     font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif;
-    padding: 0px;
-margin: 0 auto;
+    padding: 1%;
+     -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
 }
 
 .item_Quantity input {
@@ -464,20 +467,5 @@ border: none;
     transition: background-color 0.5s ease-out;
 }
 
-#input {
-    width: 98%;
-    height: 30px;
-    border: 0px none;
-    background-color: #4EB56D;
-    font-size: 1em;
-    color: white;
-    padding: 1%;
-    position: relative;
-    top: 0px;
-    z-index: 90;
-    -webkit-transition: background-color 1s ease-out;
-    -moz-transition: background-color 1s ease-out;
-    -o-transition: background-color 1s ease-out;
-    transition: background-color 1s ease-out;
-}
+
 
