@@ -390,7 +390,7 @@ html, body {
 /* line 324, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
-  min-height: 200px !important; }
+  min-height: 150px !important; }
 
 /* line 328, ../sass/base.scss */
 .menu {
