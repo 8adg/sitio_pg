@@ -2,6 +2,7 @@
 
 $clr_bs_top: #043b7b;
 $clr_bs_hdr: #ee8d03;
+$clr_bs_2: #004455;
 $clr_bs_menu: #f0f0f0;
 $clr_cont_vid: #e5e5e5;
 $clr_cont_carr: #1b1b1b;
@@ -53,6 +54,12 @@ $eventh:375px;
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
+@font-face {
+    font-family: 'oliviaUI';
+       src:url('../fonts/oliviaUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*---------------------------------| RESET |----------------------------------*/
 
@@ -433,7 +440,7 @@ left: 10px;
 
 .item_add {
     font-family: 'oliviaUI', sans-serif;
-    background-color: rgb(255, 0, 130);
+    background-color:$clr_bs_2;
     color: #fff;
     display: block;
     height: 36px;
