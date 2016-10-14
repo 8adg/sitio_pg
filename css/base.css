@@ -534,3 +534,20 @@ html, body {
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
+
+/* line 467, ../sass/base.scss */
+#input {
+  width: 98%;
+  height: 30px;
+  border: 0px none;
+  background-color: #4EB56D;
+  font-size: 1em;
+  color: white;
+  padding: 1%;
+  position: relative;
+  top: 0px;
+  z-index: 90;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out; }
