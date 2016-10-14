@@ -484,4 +484,6 @@ html, body {
 
 /* line 412, ../sass/base.scss */
 .logo span {
-  padding: 0 40%; }
+  position: relative;
+  top: -35px;
+  left: 10px; }
