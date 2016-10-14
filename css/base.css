@@ -497,9 +497,10 @@ html, body {
 .box_compra {
   display: inline-flex;
   height: 40px;
-  width: 640px; }
+  width: 640px;
+  padding: 30px 0; }
 
-/* line 431, ../sass/base.scss */
+/* line 432, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 500px;
@@ -511,13 +512,13 @@ html, body {
   padding: 0px;
   margin: 0 auto; }
 
-/* line 443, ../sass/base.scss */
+/* line 444, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 449, ../sass/base.scss */
+/* line 450, ../sass/base.scss */
 .item_add {
   font-family: 'oliviaUI', sans-serif;
   background-color: #004455;
