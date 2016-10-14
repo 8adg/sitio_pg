@@ -433,9 +433,11 @@ left: 10px;
     width: 500px;
     height: 47px;
     background: #fff;
-    text-align: center;
+    text-align: left;
     color: rgb(69, 69, 69);
     font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif;
+    padding: 0px;
+margin: 0 auto;
 }
 
 .item_add {
@@ -453,3 +455,4 @@ left: 10px;
     -o-transition: background-color 0.5s ease-out;
     transition: background-color 0.5s ease-out;
 }
+
