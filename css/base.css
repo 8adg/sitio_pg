@@ -478,7 +478,7 @@ html, body {
 
 /* line 406, ../sass/base.scss */
 .logo {
-  padding: 34px;
+  padding: 34px 0 34px 70px;
   font-weight: bold;
   font-family: sans-serif; }
 
