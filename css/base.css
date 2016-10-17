@@ -602,3 +602,7 @@ html, body {
   color: #004455;
   position: relative;
   top: 6px; }
+
+/* line 530, ../sass/base.scss */
+.titulo_buscar {
+  position: relative; }
