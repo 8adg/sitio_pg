@@ -440,16 +440,7 @@ html, body {
 .der {
   float: right; }
 
-/* line 373, ../sass/base.scss */
-.logo {
-  padding: 34px; }
-
-/* line 377, ../sass/base.scss */
-.logo_uni {
-  padding: 70px 0px;
-  text-align: right; }
-
-/* line 382, ../sass/base.scss */
+/* line 374, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -461,55 +452,55 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 394, ../sass/base.scss */
+/* line 386, ../sass/base.scss */
 .menu a:hover {
   background: #fff; }
 
-/* line 398, ../sass/base.scss */
+/* line 390, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 402, ../sass/base.scss */
+/* line 394, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 406, ../sass/base.scss */
+/* line 398, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 410, ../sass/base.scss */
+/* line 402, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 414, ../sass/base.scss */
+/* line 406, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 418, ../sass/base.scss */
+/* line 410, ../sass/base.scss */
 .logo {
-  padding: 34px 0 34px 70px;
+  padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 424, ../sass/base.scss */
+/* line 416, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 430, ../sass/base.scss */
+/* line 422, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 437, ../sass/base.scss */
+/* line 429, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 442, ../sass/base.scss */
+/* line 434, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -525,13 +516,13 @@ html, body {
   height: 100%;
   font-size: 14px; }
 
-/* line 459, ../sass/base.scss */
+/* line 451, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 468, ../sass/base.scss */
+/* line 460, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -547,7 +538,7 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 485, ../sass/base.scss */
+/* line 477, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -562,27 +553,27 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 500, ../sass/base.scss */
+/* line 492, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 505, ../sass/base.scss */
+/* line 497, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 509, ../sass/base.scss */
+/* line 501, ../sass/base.scss */
 .usuario {
   position: relative;
   top: 50px; }
 
-/* line 513, ../sass/base.scss */
+/* line 505, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 519, ../sass/base.scss */
+/* line 511, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: 35px;
@@ -590,7 +581,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 527, ../sass/base.scss */
+/* line 519, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -598,20 +589,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 534, ../sass/base.scss */
+/* line 526, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 539, ../sass/base.scss */
+/* line 531, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 543, ../sass/base.scss */
+/* line 535, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
