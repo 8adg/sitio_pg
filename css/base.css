@@ -114,12 +114,12 @@ dd:first-child {
 
 /* line 136, ../sass/base.scss */
 dt:before {
-  content: "▸";
+  content: "Ôû©";
   margin-right: 10px; }
 
 /* line 137, ../sass/base.scss */
 dt.activo:before {
-  content: "▾"; }
+  content: "Ôû¥"; }
 
 /*-------------------------GridContainer 8aDG---------------------------------*/
 /* line 141, ../sass/base.scss */
