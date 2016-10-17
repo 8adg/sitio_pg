@@ -606,4 +606,7 @@ html, body {
 /* line 530, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
-  font: normal 400 0.75em "Open Sans", sans-serif !important; }
+  font: normal 400 0.75em "Open Sans", sans-serif !important;
+  top: -38px;
+  left: 30px !important;
+  width: 100% !important; }
