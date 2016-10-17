@@ -595,3 +595,10 @@ html, body {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
+
+/* line 526, ../sass/base.scss */
+#iconos_contacto {
+  font-size: 1.5em;
+  color: #004455;
+  position: relative;
+  top: 6px; }
