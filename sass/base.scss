@@ -54,12 +54,17 @@ $eventh:375px;
 
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
+
 @font-face {
-    font-family: 'oliviaUI';
-       src:url('../fonts/oliviaUI.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'gorrasiUI';
+  src: url('../fonts/font3425.woff') format('woff'),
+       url('../fonts/font3425.ttf') format('truetype'),
+       url('../fonts/font3425.svg#font3425') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
+
+
 
 /*---------------------------------| RESET |----------------------------------*/
 
@@ -468,7 +473,7 @@ border: none;
 }
 
 .item_add span{
-    font-family: 'oliviaUI', sans-serif;
+    font-family: 'gorrasiUI', sans-serif;
     color: #fff;
     display: block;
     width: 30px;
