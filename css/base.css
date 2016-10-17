@@ -579,9 +579,10 @@ html, body {
 /* line 513, ../sass/base.scss */
 .bag {
   position: relative;
-  top: 50px; }
+  top: 50px;
+  padding: 0 30px; }
 
-/* line 518, ../sass/base.scss */
+/* line 519, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: 35px;
@@ -589,27 +590,28 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 526, ../sass/base.scss */
+/* line 527, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
   font-size: 0.75em;
-  color: #004455; }
+  color: #004455;
+  left: -20px; }
 
-/* line 532, ../sass/base.scss */
+/* line 534, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 537, ../sass/base.scss */
+/* line 539, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 541, ../sass/base.scss */
+/* line 543, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
