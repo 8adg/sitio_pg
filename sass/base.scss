@@ -517,10 +517,11 @@ font-size:2.5em;
 }
 
 .n_usuario{
-padding: 50px;
-font-size:12px;
+  height: 140px;
+  line-height: 140px;
+  white-space: nowrap;
 color:$clr_bs_2;
-white-space:nowrap;
+
 }
 
 .cantidad {
