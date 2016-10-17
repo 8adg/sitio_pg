@@ -556,3 +556,9 @@ html, body {
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
+
+/* line 490, ../sass/base.scss */
+.ui {
+  font-family: 'gorrasiUI';
+  display: block;
+  font-size: 1em; }
