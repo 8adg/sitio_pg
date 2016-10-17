@@ -430,8 +430,13 @@ left: 10px;
 .box_compra {
     display: inline-flex;
     height: 40px;
-    width: 640px;
+    width: 98%;
     padding: 30px 0 20px 0;
+}
+
+.item_cantidad {
+  width: 80%;
+height: 40px;
 }
 
 .item_Quantity {
@@ -441,14 +446,15 @@ left: 10px;
     text-align: left;
     color: rgb(69, 69, 69);
     font:italic 20px/150% 'Open Sans', Helvetica, sans-serif;
-    padding: 1%;
+    padding: 5px;
      -webkit-transition: background-color 1s ease-out;
     -moz-transition: background-color 1s ease-out;
     -o-transition: background-color 1s ease-out;
     transition: background-color 1s ease-out;
-    height: 73%;
+    height: 100%;
     font-size: 14px;
 }
+
 
 .item_Quantity input {
       padding: 0px;
@@ -456,12 +462,15 @@ margin: 0 auto;
 border: none;
 }
 
+
+
+
 .item_add {
     background-color:$clr_bs_2;
     color: #fff;
     display: block;
-    height: 100%;
-    width: 100%;
+    height: 40px;
+    width: 130px;
     text-decoration: none;
     font-size: 1.7em;
     line-height: 1.6;
@@ -472,11 +481,12 @@ border: none;
     transition: background-color 0.5s ease-out;
 }
 
+
 .item_add span{
     font-family: 'gorrasiUI', sans-serif;
     color: #fff;
     display: block;
-    width: 30px;
+    width: 130px;
     line-height: 1.6;
     padding: 0 10px;
     position:relative;
