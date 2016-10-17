@@ -64,7 +64,23 @@ $eventh:375px;
   font-style: normal;
 }
 
+[class^="icon-"], [class*=" icon-"] {
+    font-family: 'gorrasiUI';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-usuario:before {
+    content: "k";
+}
 
 /*---------------------------------| RESET |----------------------------------*/
 
