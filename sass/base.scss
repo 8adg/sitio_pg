@@ -206,13 +206,18 @@ html ,body{ height: 100%; }
 /*---------------------------| MENOS DE 800PX |-------------------------------*/
 
     @media all and (max-width:800px){
-        .col-0{ width: 33.33%;}
-        .col-1{ width: 33.33%;}
-        .col-2{ width: 50%;        }
-        .col-3{ width: 83.33%;    }
-        .col-4{ width: 100%;    }
-        .col-5{ width: 100%;    }
-        .col-6{ width: 100%;      }
+        .col-0{ width: 33.33%;   }
+        .col-1{ width: 33.33%;   }
+        .col-2{ width: 50%;      }
+        .col-3{ width: 83.33%;   }
+        .col-4{ width: 100%;     }
+        .col-5{ width: 100%;     }
+        .col-6{ width: 100%;     }
+    .col-81{width: $bsColGrid2*8;}
+    .col-82{width: $bsColGrid2*8;}
+    .col-84{width: $bsColGrid2*8;}
+    .col-86{width: $bsColGrid2*8;}
+    .col-88{width: $bsColGrid2*8;}
 ul li { width: 100%;      }
         .row .col-2:last-of-type{
             width: 100%; 
