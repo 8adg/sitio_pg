@@ -560,24 +560,23 @@ html, body {
 /* line 490, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
-  display: block;
   font-size: 2.5em; }
 
-/* line 496, ../sass/base.scss */
+/* line 495, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 500, ../sass/base.scss */
+/* line 499, ../sass/base.scss */
 .usuario {
   position: relative;
   top: 50px; }
 
-/* line 504, ../sass/base.scss */
+/* line 503, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px; }
 
-/* line 509, ../sass/base.scss */
+/* line 508, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: 15px;
@@ -585,7 +584,7 @@ html, body {
   font-size: 0.75em;
   color: #004455; }
 
-/* line 517, ../sass/base.scss */
+/* line 516, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 15px;
@@ -593,7 +592,7 @@ html, body {
   font-size: 0.75em;
   color: #004455; }
 
-/* line 524, ../sass/base.scss */
+/* line 523, ../sass/base.scss */
 .contactos {
   color: #004455;
   font: normal 600 1em 'Open Sans', sans-serif; }
