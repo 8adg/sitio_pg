@@ -57,6 +57,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 106, ../sass/base.scss */
+a {
+  text-decoration: none !important; }
+
 /*---------------| BORRA RECTANGULOS A LOS LINKS MOBILE |---------------------*/
 /* descomentar luego de compilar
 
@@ -114,12 +118,12 @@ dd:first-child {
 
 /* line 136, ../sass/base.scss */
 dt:before {
-  content: "Ôû©";
+  content: "▸";
   margin-right: 10px; }
 
 /* line 137, ../sass/base.scss */
 dt.activo:before {
-  content: "Ôû¥"; }
+  content: "▾"; }
 
 /*-------------------------GridContainer 8aDG---------------------------------*/
 /* line 141, ../sass/base.scss */
