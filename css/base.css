@@ -579,20 +579,19 @@ html, body {
 /* line 508, ../sass/base.scss */
 .n_usuario {
   position: relative;
-  top: 15px;
-  left: 40px;
+  top: 35px;
   font-size: 0.75em;
   color: #004455; }
 
-/* line 516, ../sass/base.scss */
+/* line 515, ../sass/base.scss */
 .cantidad {
   position: relative;
-  top: 15px;
-  left: 40px;
+  top: 35px;
   font-size: 0.75em;
   color: #004455; }
 
-/* line 523, ../sass/base.scss */
+/* line 521, ../sass/base.scss */
 .contactos {
+  position: relative;
   color: #004455;
   font: normal 600 1em 'Open Sans', sans-serif; }
