@@ -566,3 +566,11 @@ html, body {
 /* line 496, ../sass/base.scss */
 .color1 {
   color: #fff; }
+
+/* line 500, ../sass/base.scss */
+.usuario {
+  position: relative; }
+
+/* line 503, ../sass/base.scss */
+.bag {
+  position: relative; }
