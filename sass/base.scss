@@ -441,7 +441,7 @@ height: 40px;
 
 .item_Quantity {
     border: none;
-    width: 500px;
+    width: 100%;
     background: #fff;
     text-align: left;
     color: rgb(69, 69, 69);
@@ -469,12 +469,12 @@ border: none;
     background-color:$clr_bs_2;
     color: #fff;
     display: block;
-    height: 40px;
+    height: 50px;
     width: 130px;
     text-decoration: none;
     font-size: 1.7em;
     line-height: 1.6;
-    padding: 0 10px;
+    padding: 5px;
     -webkit-transition: background-color 0.5s ease-out;
     -moz-transition: background-color 0.5s ease-out;
     -o-transition: background-color 0.5s ease-out;
