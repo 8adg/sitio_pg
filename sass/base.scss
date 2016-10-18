@@ -286,7 +286,7 @@ ul li { width: 100%;      }
 .nav {
 position:relative;
 top: -50px;
-width: $eventw;
+width: 227px;
 height: 50px;
 text-align: center;
 background: #032e61;
@@ -321,14 +321,14 @@ width: 2px;
 }
 
 #event_rotator{
-  width:$eventw;
-  height:$eventh;
+  width:227px;
+  height:375px;
   position:relative;
   overflow:hidden;
 }
 #slider{
   position:absolute;
-  height:$eventh + 5px;
+  height:380px;
   left:0; 
   width:99999px;
 }
@@ -337,8 +337,8 @@ width: 2px;
   font:normal 400 1em 'PT Sans', sans-serif;
   background:#043b7b;
   float:left;
-  width:$eventw;
-  height:$eventh;
+  width:227px;
+  height:375px;
 }
 .event:nth-child(odd){
  background:#0c4180;
@@ -357,7 +357,6 @@ padding: 10px 10px;
 .botones{
   padding-top: 15px;
 }
-
 
 /*--------------------------| slider multi noticias|----------------------------*/
 
