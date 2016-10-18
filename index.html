@@ -15,7 +15,8 @@
   <title>Pascual Gorrassi Hogar</title>
   <meta name="description" content="8aDG">
   <meta name="author" content="8aDG">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <link rel="stylesheet" href="css/base.css?v=1.0">
 
   <!--[if lt IE 9]>
@@ -100,33 +101,7 @@
   <span id="right">&#8250;</span>  
   </div>
   </div>
-<script>try {var W = $('#event_rotator').width(),
-    N = $('#slider .event').length,
-    C = 0,
-    intv;
 
-if(N<=1)$('#left, #right').hide(); 
-$('#slider').width( W*N );
-
-$('#left, #right').click(function(){
-     C = (this.id=='right'? ++C : --C) < 0 ? N-1 : C%N ;
-     $('#slider').stop().animate({left: -C*W }, 800 );
-});
-
-function auto(){
-  intv = setInterval(function(){
-      $('#right').click();
-  }, 3000 );
-}
-auto();
-
-$('#event_rotator').hover(function( e ){
-  return e.type=='mouseenter' ? clearInterval(intv) : auto();
-});
-} catch (error) { throw error; }
-
-//# sourceURL=mavaromusi.js
-</script>
 
 </div>
 </div>
