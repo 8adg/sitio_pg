@@ -533,6 +533,8 @@ font-size:2.5em;
 }
 
 .n_usuario{
+  position: relative;
+  top: -5px;
 font-size: 12px;
 color:$clr_bs_2;
 white-space:nowrap;
