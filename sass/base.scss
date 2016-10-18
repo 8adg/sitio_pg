@@ -209,6 +209,7 @@ html ,body{ height: 100%; }
   list-style:none;
   margin:0;
   padding:0;
+  display:inline-block;
 }
 #menu_ul ul li {
   margin:2px;
@@ -216,7 +217,7 @@ html ,body{ height: 100%; }
   display:inline-block;
 }
 #menu_ul ul li a {
-  display:block; //Convertimos el vínculo en un bloque.
+ display:inline-block; //Convertimos el vínculo en un bloque.
   width:50px;
   padding:4px 0;
   text-decoration:none;
