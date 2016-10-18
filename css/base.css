@@ -403,7 +403,7 @@ html, body {
   position: absolute;
   height: 380px;
   left: 0;
-  width: 99999px; }
+  width: 99999%; }
 
 /* line 335, ../sass/base.scss */
 .event {
