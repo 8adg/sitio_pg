@@ -488,7 +488,7 @@ html, body {
 
 /* line 405, ../sass/base.scss */
 .menu ul li {
-  margin: 2px;
+  margin: 0;
   padding: 0; }
 
 /* line 409, ../sass/base.scss */
@@ -497,62 +497,61 @@ html, body {
   display: inline-block;
   padding: 20px 30px;
   text-align: center;
-  width: 100%;
   -webkit-transition: background-color 0.5s ease-out;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 421, ../sass/base.scss */
+/* line 420, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
   color: #004455; }
 
-/* line 426, ../sass/base.scss */
+/* line 425, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 430, ../sass/base.scss */
+/* line 429, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 434, ../sass/base.scss */
+/* line 433, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 438, ../sass/base.scss */
+/* line 437, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 442, ../sass/base.scss */
+/* line 441, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 446, ../sass/base.scss */
+/* line 445, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 452, ../sass/base.scss */
+/* line 451, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 458, ../sass/base.scss */
+/* line 457, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 465, ../sass/base.scss */
+/* line 464, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 470, ../sass/base.scss */
+/* line 469, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -568,13 +567,13 @@ html, body {
   height: 100%;
   font-size: 14px; }
 
-/* line 487, ../sass/base.scss */
+/* line 486, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 496, ../sass/base.scss */
+/* line 495, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -590,7 +589,7 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 513, ../sass/base.scss */
+/* line 512, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -603,29 +602,29 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 526, ../sass/base.scss */
+/* line 525, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 531, ../sass/base.scss */
+/* line 530, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 535, ../sass/base.scss */
+/* line 534, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 542, ../sass/base.scss */
+/* line 541, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 548, ../sass/base.scss */
+/* line 547, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -633,7 +632,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 556, ../sass/base.scss */
+/* line 555, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -641,20 +640,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 563, ../sass/base.scss */
+/* line 562, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 568, ../sass/base.scss */
+/* line 567, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 572, ../sass/base.scss */
+/* line 571, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
