@@ -483,7 +483,7 @@ html, body {
 .menu ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 12.50%;
   display: inline-flex; }
 
 /* line 405, ../sass/base.scss */
