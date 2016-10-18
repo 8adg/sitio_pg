@@ -30,15 +30,14 @@
 /* line 81, ../sass/base.scss */
 .icon-usuario:before {
   content: "k";
-  font-size: 1.5em;
-  line-height: 5px; }
+  font-size: 2em; }
 
 /*---------------------------------| RESET |----------------------------------*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-/* line 94, ../sass/base.scss */
+/* line 93, ../sass/base.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -63,20 +62,20 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 /*article, aside, details, figcaption, figure, */
-/* line 118, ../sass/base.scss */
+/* line 117, ../sass/base.scss */
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
-/* line 122, ../sass/base.scss */
+/* line 121, ../sass/base.scss */
 ol, ul {
   list-style: none; }
 
-/* line 125, ../sass/base.scss */
+/* line 124, ../sass/base.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 129, ../sass/base.scss */
+/* line 128, ../sass/base.scss */
 a {
   text-decoration: none !important; }
 
@@ -98,21 +97,21 @@ font-family: 'Open Sans', sans-serif;
 }
 */
 /*---------------------------| Acordeon 8aDG |--------------------------------*/
-/* line 152, ../sass/base.scss */
+/* line 151, ../sass/base.scss */
 * {
   font-family: sans-serif;
   margin: 0; }
 
-/* line 153, ../sass/base.scss */
+/* line 152, ../sass/base.scss */
 dl {
   margin: 0px auto;
   width: 100%; }
 
-/* line 154, ../sass/base.scss */
+/* line 153, ../sass/base.scss */
 dt, dd {
   padding: 20px; }
 
-/* line 155, ../sass/base.scss */
+/* line 154, ../sass/base.scss */
 dt {
   background: #333333;
   color: #fff;
@@ -120,36 +119,36 @@ dt {
   border-top: 1px solid #4E4E4E;
   cursor: pointer; }
 
-/* line 156, ../sass/base.scss */
+/* line 155, ../sass/base.scss */
 dd {
   background: #F5F5F5;
   display: none;
   line-height: 1.6em;
   text-align: center; }
 
-/* line 157, ../sass/base.scss */
+/* line 156, ../sass/base.scss */
 dt.activo, dt:hover {
   background: #424242; }
 
-/* line 158, ../sass/base.scss */
+/* line 157, ../sass/base.scss */
 dd:first-child {
   display: block; }
 
-/* line 159, ../sass/base.scss */
+/* line 158, ../sass/base.scss */
 dt:before {
   content: "▸";
   margin-right: 10px; }
 
-/* line 160, ../sass/base.scss */
+/* line 159, ../sass/base.scss */
 dt.activo:before {
   content: "▾"; }
 
 /*-------------------------GridContainer 8aDG---------------------------------*/
-/* line 164, ../sass/base.scss */
+/* line 163, ../sass/base.scss */
 html, body {
   height: 100%; }
 
-/* line 166, ../sass/base.scss */
+/* line 165, ../sass/base.scss */
 .grid-container {
   width: 100%;
   height: 100%;
@@ -161,21 +160,21 @@ html, body {
   padding: 0px; }
 
 /*-- our cleafix hack -- */
-/* line 179, ../sass/base.scss */
+/* line 178, ../sass/base.scss */
 .row:before,
 .row:after {
   content: "";
   display: table;
   clear: both; }
 
-/* line 186, ../sass/base.scss */
+/* line 185, ../sass/base.scss */
 .rowfixed:before, .rowfixed:before {
   content: "";
   display: table;
   clear: both;
   margin: 0 12.5%; }
 
-/* line 194, ../sass/base.scss */
+/* line 193, ../sass/base.scss */
 [class*='col-'] {
   float: left;
   min-height: 1px;
@@ -183,178 +182,178 @@ html, body {
   /*-- our gutter -- */
   /*background-color: $clr_bs_top;*/ }
 
-/* line 202, ../sass/base.scss */
+/* line 201, ../sass/base.scss */
 .square {
   height: 0;
   padding-bottom: 12.5%; }
 
 /*----------------------sistema de columnas 8aDG------------------------------*/
-/* line 209, ../sass/base.scss */
+/* line 208, ../sass/base.scss */
 .col-1 {
   width: 16.66667%; }
 
-/* line 210, ../sass/base.scss */
+/* line 209, ../sass/base.scss */
 .col-2 {
   width: 33.33333%; }
 
-/* line 211, ../sass/base.scss */
+/* line 210, ../sass/base.scss */
 .col-3 {
   width: 50%; }
 
-/* line 212, ../sass/base.scss */
+/* line 211, ../sass/base.scss */
 .col-4 {
   width: 66.66667%; }
 
-/* line 213, ../sass/base.scss */
+/* line 212, ../sass/base.scss */
 .col-5 {
   width: 83.33333%; }
 
-/* line 214, ../sass/base.scss */
+/* line 213, ../sass/base.scss */
 .col-6 {
   width: 100%; }
 
-/* line 215, ../sass/base.scss */
+/* line 214, ../sass/base.scss */
 .col-81 {
   width: 12.5%; }
 
-/* line 216, ../sass/base.scss */
+/* line 215, ../sass/base.scss */
 .col-82 {
   width: 25%; }
 
-/* line 217, ../sass/base.scss */
+/* line 216, ../sass/base.scss */
 .col-84 {
   width: 50%; }
 
-/* line 218, ../sass/base.scss */
+/* line 217, ../sass/base.scss */
 .col-86 {
   width: 75%; }
 
-/* line 219, ../sass/base.scss */
+/* line 218, ../sass/base.scss */
 .col-88 {
   width: 100%; }
 
-/* line 220, ../sass/base.scss */
+/* line 219, ../sass/base.scss */
 .outline, .outline * {
   outline: 1px solid #F6A1A1; }
 
 /*---------------------------| MENOS DE 800PX |-------------------------------*/
 @media all and (max-width: 800px) {
-  /* line 227, ../sass/base.scss */
+  /* line 226, ../sass/base.scss */
   .col-0 {
     width: 33.33%; }
 
-  /* line 228, ../sass/base.scss */
+  /* line 227, ../sass/base.scss */
   .col-1 {
     width: 33.33%; }
 
-  /* line 229, ../sass/base.scss */
+  /* line 228, ../sass/base.scss */
   .col-2 {
     width: 50%; }
 
-  /* line 230, ../sass/base.scss */
+  /* line 229, ../sass/base.scss */
   .col-3 {
     width: 83.33%; }
 
-  /* line 231, ../sass/base.scss */
+  /* line 230, ../sass/base.scss */
   .col-4 {
     width: 100%; }
 
-  /* line 232, ../sass/base.scss */
+  /* line 231, ../sass/base.scss */
   .col-5 {
     width: 100%; }
 
-  /* line 233, ../sass/base.scss */
+  /* line 232, ../sass/base.scss */
   .col-6 {
     width: 100%; }
 
-  /* line 234, ../sass/base.scss */
+  /* line 233, ../sass/base.scss */
   .col-81 {
     width: 50%; }
 
-  /* line 235, ../sass/base.scss */
+  /* line 234, ../sass/base.scss */
   .col-82 {
     width: 100%; }
 
-  /* line 236, ../sass/base.scss */
+  /* line 235, ../sass/base.scss */
   .col-84 {
     width: 100%; }
 
-  /* line 237, ../sass/base.scss */
+  /* line 236, ../sass/base.scss */
   .col-86 {
     width: 100%; }
 
-  /* line 238, ../sass/base.scss */
+  /* line 237, ../sass/base.scss */
   .col-88 {
     width: 100%; }
 
-  /* line 239, ../sass/base.scss */
+  /* line 238, ../sass/base.scss */
   ul li {
     width: 100%; }
 
-  /* line 240, ../sass/base.scss */
+  /* line 239, ../sass/base.scss */
   .row .col-2:last-of-type {
     width: 100%; }
 
-  /* line 244, ../sass/base.scss */
+  /* line 243, ../sass/base.scss */
   .row .col-5 ~ .col-1 {
     width: 100%; }
 
-  /* line 247, ../sass/base.scss */
+  /* line 246, ../sass/base.scss */
   .ch {
     display: block !important; }
 
   /*-----------------| contenido personalizado medium 8aDG |--------------------*/ }
 /*----------------------------| MENOS DE 650PX |------------------------------*/
 @media all and (max-width: 650px) {
-  /* line 259, ../sass/base.scss */
+  /* line 258, ../sass/base.scss */
   .col-0 {
     width: 50%; }
 
-  /* line 260, ../sass/base.scss */
+  /* line 259, ../sass/base.scss */
   .col-1 {
     width: 100%; }
 
-  /* line 261, ../sass/base.scss */
+  /* line 260, ../sass/base.scss */
   .col-2 {
     width: 100%; }
 
-  /* line 262, ../sass/base.scss */
+  /* line 261, ../sass/base.scss */
   .col-3 {
     width: 100%; }
 
-  /* line 263, ../sass/base.scss */
+  /* line 262, ../sass/base.scss */
   .col-4 {
     width: 100%; }
 
-  /* line 264, ../sass/base.scss */
+  /* line 263, ../sass/base.scss */
   .col-5 {
     width: 100%; }
 
-  /* line 265, ../sass/base.scss */
+  /* line 264, ../sass/base.scss */
   .col-6 {
     width: 100%; }
 
-  /* line 266, ../sass/base.scss */
+  /* line 265, ../sass/base.scss */
   .col-ch {
     width: 100%; }
 
-  /* line 267, ../sass/base.scss */
+  /* line 266, ../sass/base.scss */
   ul li {
     width: 100% !important; }
 
   /*--------------| MUESTRA SOLO EN RESOLUCIIONES GRANDES 8aDG |----------------*/
-  /* line 271, ../sass/base.scss */
+  /* line 270, ../sass/base.scss */
   .gd {
     display: none; }
 
-  /* line 272, ../sass/base.scss */
+  /* line 271, ../sass/base.scss */
   .ch {
     display: block !important; }
 
   /*-----------------| contenido personalizado mobile 8aDG |--------------------*/ }
 /*-------------------| fin sistema de columnas 8aDG |-------------------------*/
 /*--------------------------| slider multi noticias|----------------------------*/
-/* line 283, ../sass/base.scss */
+/* line 282, ../sass/base.scss */
 .nav {
   position: relative;
   top: -50px;
@@ -365,7 +364,7 @@ html, body {
   color: #fff;
   font: normal 400 1em 'PT Sans', sans-serif; }
 
-/* line 294, ../sass/base.scss */
+/* line 293, ../sass/base.scss */
 .nav a {
   text-decoration: none;
   color: #fff;
@@ -374,7 +373,7 @@ html, body {
   position: relative;
   bottom: 3px; }
 
-/* line 303, ../sass/base.scss */
+/* line 302, ../sass/base.scss */
 #left, #right {
   cursor: pointer;
   margin: 0 10px;
@@ -383,29 +382,29 @@ html, body {
   font-weight: 100;
   width: 2px; }
 
-/* line 312, ../sass/base.scss */
+/* line 311, ../sass/base.scss */
 #left {
   text-align: left !important; }
 
-/* line 316, ../sass/base.scss */
+/* line 315, ../sass/base.scss */
 #right {
   text-align: right !important; }
 
-/* line 320, ../sass/base.scss */
+/* line 319, ../sass/base.scss */
 #event_rotator {
   width: 227px;
   height: 375px;
   position: relative;
   overflow: hidden; }
 
-/* line 326, ../sass/base.scss */
+/* line 325, ../sass/base.scss */
 #slider {
   position: absolute;
   height: 380px;
   left: 0;
   width: 99999px; }
 
-/* line 332, ../sass/base.scss */
+/* line 331, ../sass/base.scss */
 .event {
   color: #fff;
   font: normal 400 1em 'PT Sans', sans-serif;
@@ -414,72 +413,72 @@ html, body {
   width: 227px;
   height: 375px; }
 
-/* line 340, ../sass/base.scss */
+/* line 339, ../sass/base.scss */
 .event:nth-child(odd) {
   background: #0c4180; }
 
-/* line 344, ../sass/base.scss */
+/* line 343, ../sass/base.scss */
 .contenido {
   padding: 10px 10px; }
 
-/* line 348, ../sass/base.scss */
+/* line 347, ../sass/base.scss */
 .contenido p {
   font-size: 0.75em; }
 
-/* line 351, ../sass/base.scss */
+/* line 350, ../sass/base.scss */
 .titulo_rot {
   font-size: 1.2em; }
 
-/* line 354, ../sass/base.scss */
+/* line 353, ../sass/base.scss */
 .botones {
   padding-top: 15px; }
 
 /*--------------------------| slider multi noticias|----------------------------*/
-/* line 361, ../sass/base.scss */
+/* line 360, ../sass/base.scss */
 .top {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 365, ../sass/base.scss */
+/* line 364, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
   min-height: 150px !important; }
 
-/* line 369, ../sass/base.scss */
+/* line 368, ../sass/base.scss */
 .menu {
   background: #004455;
   min-height: 50px !important; }
 
-/* line 373, ../sass/base.scss */
+/* line 372, ../sass/base.scss */
 .video {
   background: #e5e5e5;
   min-height: 380px !important; }
 
-/* line 377, ../sass/base.scss */
+/* line 376, ../sass/base.scss */
 .menu_carr {
   background: #1b1b1b;
   min-height: 360px !important; }
 
-/* line 381, ../sass/base.scss */
+/* line 380, ../sass/base.scss */
 .social {
   background: #5a8996;
   min-height: 400px !important; }
 
-/* line 385, ../sass/base.scss */
+/* line 384, ../sass/base.scss */
 .footer {
   background: #333333;
   min-height: 300px !important; }
 
-/* line 389, ../sass/base.scss */
+/* line 388, ../sass/base.scss */
 .bottom {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 394, ../sass/base.scss */
+/* line 393, ../sass/base.scss */
 .der {
   float: right; }
 
-/* line 397, ../sass/base.scss */
+/* line 396, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -491,55 +490,55 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 409, ../sass/base.scss */
+/* line 408, ../sass/base.scss */
 .menu a:hover {
   background: #fff; }
 
-/* line 413, ../sass/base.scss */
+/* line 412, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 417, ../sass/base.scss */
+/* line 416, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 421, ../sass/base.scss */
+/* line 420, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 425, ../sass/base.scss */
+/* line 424, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 429, ../sass/base.scss */
+/* line 428, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 433, ../sass/base.scss */
+/* line 432, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 439, ../sass/base.scss */
+/* line 438, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 445, ../sass/base.scss */
+/* line 444, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 452, ../sass/base.scss */
+/* line 451, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 457, ../sass/base.scss */
+/* line 456, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -555,13 +554,13 @@ html, body {
   height: 100%;
   font-size: 14px; }
 
-/* line 474, ../sass/base.scss */
+/* line 473, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 483, ../sass/base.scss */
+/* line 482, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -577,7 +576,7 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 500, ../sass/base.scss */
+/* line 499, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -590,29 +589,29 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 513, ../sass/base.scss */
+/* line 512, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 518, ../sass/base.scss */
+/* line 517, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 522, ../sass/base.scss */
+/* line 521, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 529, ../sass/base.scss */
+/* line 528, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 535, ../sass/base.scss */
+/* line 534, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -5px;
@@ -620,7 +619,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 543, ../sass/base.scss */
+/* line 542, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -628,20 +627,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 550, ../sass/base.scss */
+/* line 549, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 555, ../sass/base.scss */
+/* line 554, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 559, ../sass/base.scss */
+/* line 558, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
