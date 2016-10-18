@@ -17,6 +17,8 @@
   <meta name="author" content="8aDG">
  <script type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
   <link rel="stylesheet" href="css/base.css?v=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/css-carousel.css" />
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -43,8 +45,55 @@
 <div class="col-81"><span class="ui color1 bag">d</span><span class="simpleCart_quantity cantidad">0</span><div class="ch" style="clear:both;"></div></div>
 	<div class="ch" style="clear:both;"></div>
   </header>
-<div class="col-88 menu"></div>
+<div class="col-88 menu">
+  
+</div>
+<div class="video">
+      <div class="css-carousel">
 
+        <!-- carousel controls -->
+        <input type="radio" name="carousel" id="carousel-1" checked />
+        <input type="radio" name="carousel" id="carousel-2" />
+        <input type="radio" name="carousel" id="carousel-3" />
+        <input type="radio" name="carousel" id="carousel-4" />
+
+        <!-- carousel navigation -->
+        <div class="carousel-nav">
+            <label for="carousel-1"></label>
+            <label for="carousel-2"></label>
+            <label for="carousel-3"></label>
+            <label for="carousel-4"></label>
+        </div>
+
+        <!-- carousel slides -->
+        <div class="carousel-slides">
+            <div class="carousel-inner">
+                <div class="carousel-item" style="background-color: #850000;">
+                    <div class="center">
+                        <div class="title">Zurich</div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-color: #24529c;">
+                    <div class="center">
+                        <div class="title">Belgrade</div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-color: #268435;">
+                    <div class="center">
+                        <div class="title">Hamburg</div>
+                    </div>
+                </div>
+                <div class="carousel-item" style="background-color: #7a0880;">
+                    <div class="center">
+                        <div class="title">London</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
 </div>
 
   <script src="js/scripts.js"></script>
