@@ -203,6 +203,35 @@ html ,body{ height: 100%; }
     padding-bottom: $bsColGrid2;
 }
 
+/*----------------------          menu de lista ------------------------------*/
+
+#menu_ul {  
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+#menu_ul li {
+  margin:2px;
+  padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
+  float:left;
+}
+#menu_ul li a {
+  display:block; //Convertimos el vínculo en un bloque.
+  width:100px;
+  padding:4px 0;
+  text-decoration:none;
+  text-align:center;
+  font-size:11px;
+  color:#FFFFFF;
+  background-color:#000000;
+}
+//Ahora vamos con el hover:
+#menu_ul li a:hover {
+  color:#99CC00;
+  background-color:#003366;
+}
+
+
 /*----------------------sistema de columnas 8aDG------------------------------*/
 
     .col-1{ width: $bsColGrid3; }
