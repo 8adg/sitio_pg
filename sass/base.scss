@@ -205,32 +205,6 @@ html ,body{ height: 100%; }
 
 /*----------------------          menu de lista ------------------------------*/
 
-#menu_ul ul {  
-  list-style:none;
-  margin:0;
-  padding:0;
-  display:inline-block;
-}
-#menu_ul ul li {
-  margin:2px;
-  padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
-  display:inline-block;
-}
-#menu_ul ul li a {
- display:inline-block; //Convertimos el vínculo en un bloque.
-  width:50px;
-  padding:4px 0;
-  text-decoration:none;
-  text-align:center;
-  font-size:11px;
-  color:#FFFFFF;
-  background-color:#000000;
-}
-//Ahora vamos con el hover:
-#menu_ul ul li a:hover {
-  color:#99CC00;
-  background-color:#003366;
-}
 
 
 /*----------------------sistema de columnas 8aDG------------------------------*/
@@ -422,11 +396,20 @@ min-height: 50px!important;
 
 .der{float: right;}
 
-
-.menu a{
+.menu ul {  
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:inline-flex;
+}
+.menu ul li {
+  margin:2px;
+  padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
+}
+.menu a {
 text-decoration: none;
 display: inline-block;
-padding: 20px 0;
+padding: 20px 30px;
 text-align: center;
 width: 100%;
 -webkit-transition: background-color 0.5s ease-out;
@@ -437,6 +420,7 @@ transition: background-color 0.5s ease-out;
 
 .menu a:hover{
 background: $BckColor;
+color:$clr_bs_menu;
 }
 
 .vivo a{
