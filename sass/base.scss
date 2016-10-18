@@ -213,7 +213,7 @@ html ,body{ height: 100%; }
 #menu_ul li {
   margin:2px;
   padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
-  float:left;
+  display:inline-block;
 }
 #menu_ul li a {
   display:block; //Convertimos el vínculo en un bloque.
