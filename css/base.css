@@ -358,7 +358,7 @@ html, body {
 .nav {
   position: relative;
   top: -50px;
-  width: 100%;
+  width: 100vw;
   height: 50px;
   text-align: center;
   background: #032e61;
@@ -393,7 +393,7 @@ html, body {
 
 /* line 323, ../sass/base.scss */
 #event_rotator {
-  width: 100%;
+  width: 100vw;
   height: 375px;
   position: relative;
   overflow: hidden; }
@@ -411,7 +411,7 @@ html, body {
   font: normal 400 1em 'PT Sans', sans-serif;
   background: #043b7b;
   float: left;
-  width: 100%;
+  width: 100vw;
   height: 375px; }
 
 /* line 343, ../sass/base.scss */
