@@ -361,7 +361,7 @@ html, body {
   width: 100vw;
   height: 50px;
   text-align: center;
-  background: #032e61;
+  background: #CDCEC2;
   color: #fff;
   font: normal 400 1em 'PT Sans', sans-serif; }
 
@@ -409,14 +409,14 @@ html, body {
 .event {
   color: #fff;
   font: normal 400 1em 'PT Sans', sans-serif;
-  background: #043b7b;
+  background: #e0e1d3;
   float: left;
   width: 100vw;
   height: 375px; }
 
 /* line 343, ../sass/base.scss */
 .event:nth-child(odd) {
-  background: #0c4180; }
+  background: #D8D9CD; }
 
 /* line 347, ../sass/base.scss */
 .contenido {
