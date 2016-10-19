@@ -11,12 +11,12 @@ $clr_bs_ftr: #333333;
 $Fclr_titl: #fff;
 $Fclr_subtitl: #fff;
 $Fclr_txt: #043b7b;
-$bsColGrid1:100% /12;
-$bsColGrid2:100% /8;
-$bsColGrid3:100% /6;
-$margenGrilla1:100% /12;
-$margenGrilla2:100% /8;
-$margenGrilla3:100% /6;
+$bsColGrid1:100vw /12;
+$bsColGrid2:100vw /8;
+$bsColGrid3:100vw /6;
+$margenGrilla1:100vw /12;
+$margenGrilla2:100vw /8;
+$margenGrilla3:100vw /6;
 $maxWidth:100%;
 //colores_acordeon
 $dtClrBack:#333333;
@@ -173,7 +173,6 @@ html ,body{ height: 100%; }
         clear:both;
         margin: 0 auto;
         padding: 0px;
-        overflow-x: hidden;
     }
 
 
@@ -388,8 +387,6 @@ min-height: 50px!important;
   text-align:center;
 }
 .sldr{
-  width:100%!important;
-  overflow:hidden!important;
   background:$clr_cont_vid;
   min-height: 375px!important;
 }
