@@ -443,19 +443,19 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 381, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
-  min-height: 150px !important;
-  text-align: center; }
+  min-height: 150px !important; }
 
-/* line 386, ../sass/base.scss */
+/* line 385, ../sass/base.scss */
 .menu {
   background: #004455;
   min-height: 50px !important;
   text-align: center; }
 
-/* line 391, ../sass/base.scss */
+/* line 390, ../sass/base.scss */
 .sldr {
   background: #e5e5e5;
-  min-height: 375px !important; }
+  min-height: 375px !important;
+  text-align: center; }
 
 /* line 395, ../sass/base.scss */
 .promo {

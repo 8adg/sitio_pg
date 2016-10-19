@@ -381,7 +381,6 @@ min-height: 50px!important;
 .hdr{
   background:$clr_bs_hdr ;
   min-height: 150px!important;
-  text-align: center;
 }
 .menu{
   background: $clr_bs_menu;
@@ -391,6 +390,7 @@ min-height: 50px!important;
 .sldr{
   background:$clr_cont_vid;
   min-height: 375px!important;
+   text-align: center;
 }
 .promo {
   background:$clr_cont_carr ;
