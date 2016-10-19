@@ -396,7 +396,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 330, ../sass/base.scss */
 #event_rotator {
-  width: 98.9vw;
+  width: 98.95vw;
   height: 375px;
   position: relative;
   overflow: hidden; }
@@ -414,7 +414,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font: normal 300 1em 'Roboto', sans-serif;
   background: #e0e1d3;
   float: left;
-  width: 98.9vw;
+  width: 98.95vw;
   height: 375px; }
 
 /* line 350, ../sass/base.scss */
