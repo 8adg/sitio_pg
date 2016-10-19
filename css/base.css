@@ -396,65 +396,65 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 330, ../sass/base.scss */
 #event_rotator {
-  width: 98vw;
+  width: 100vw;
   height: 375px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
 
-/* line 336, ../sass/base.scss */
+/* line 337, ../sass/base.scss */
 #slider {
   position: absolute;
   height: 375px;
   left: 0;
   width: 99999%; }
 
-/* line 342, ../sass/base.scss */
+/* line 343, ../sass/base.scss */
 .event {
   color: #fff;
   font: normal 300 1em 'Roboto', sans-serif;
   background: #e0e1d3;
   float: left;
-  width: 98vw;
+  width: 100vw;
   height: 375px; }
 
-/* line 350, ../sass/base.scss */
+/* line 351, ../sass/base.scss */
 .event:nth-child(odd) {
   background: #D8D9CD; }
 
-/* line 354, ../sass/base.scss */
+/* line 355, ../sass/base.scss */
 .contenido {
   padding: 100px; }
 
-/* line 358, ../sass/base.scss */
+/* line 359, ../sass/base.scss */
 .contenido p {
   font-size: 1.5em; }
 
-/* line 361, ../sass/base.scss */
+/* line 362, ../sass/base.scss */
 .titulo_rot {
   font: normal 100 5em 'Roboto', sans-serif;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
 
 /*--------------------------| slider multi noticias|----------------------------*/
-/* line 376, ../sass/base.scss */
+/* line 377, ../sass/base.scss */
 .top {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 380, ../sass/base.scss */
+/* line 381, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
   min-height: 150px !important; }
 
-/* line 384, ../sass/base.scss */
+/* line 385, ../sass/base.scss */
 .menu {
   background: #004455;
   min-height: 50px !important;
   text-align: center; }
 
-/* line 389, ../sass/base.scss */
+/* line 390, ../sass/base.scss */
 .sldr {
   background: #e5e5e5;
-  min-height: 375px !important;
-  text-align: center !important; }
+  min-height: 375px !important; }
 
 /* line 394, ../sass/base.scss */
 .promo {
