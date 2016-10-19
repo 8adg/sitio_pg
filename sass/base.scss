@@ -162,7 +162,7 @@ dt.activo:before{ content: "▾"; }
 
 
 /*-------------------------GridContainer 8aDG---------------------------------*/
-html ,body{ height: 100%; }
+html ,body{ height: 100%;overflow-x:hidden; }
 
 .grid-container {
         width:100%; 

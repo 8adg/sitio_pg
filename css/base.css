@@ -147,7 +147,8 @@ dt.activo:before {
 /*-------------------------GridContainer 8aDG---------------------------------*/
 /* line 165, ../sass/base.scss */
 html, body {
-  height: 100%; }
+  height: 100%;
+  overflow-x: hidden; }
 
 /* line 167, ../sass/base.scss */
 .grid-container {
