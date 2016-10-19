@@ -310,7 +310,7 @@ position: absolute;
 cursor: pointer;
 margin: 0 10px;
 font:normal 100 3em 'Roboto', sans-serif;
-color: #fff;
+color:$dtClrBackActive;
 font-weight: 100;
 width: 2px;
 }
@@ -336,7 +336,7 @@ right:10px;
   width:99999%;
 }
 .event{
-  color:$dtClrBackActive;
+  color:#fff;
   font:normal 300 1em 'Roboto', sans-serif;
   background:#e0e1d3;
   float:left;
