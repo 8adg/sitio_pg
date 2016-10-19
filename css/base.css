@@ -1,79 +1,664 @@
-/*
-Error: Incompatible units: 'px' and 'vw'.
-        on line 331 of /home/matias/sitio_pg/sass/base.scss
+@charset "UTF-8";
+/*///////////////////// 8aDG | D.G. Matias Ochoa Payva ///////////////////////*/
+/*-------------------------| matias8adg@gmail.com |---------------------------*/
+/*                                                                            */
+/*////////////////////////////////////////////////////////////////////////////*/
+/*--------------------------------| FUENTES |---------------------------------*/
+/*TITULOS*/
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+/*TEXTOS EN GRAL*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
+@font-face {
+  font-family: 'gorrasiUI';
+  src: url("../fonts/font3425.woff") format("woff"), url("../fonts/font3425.ttf") format("truetype"), url("../fonts/font3425.svg#font3425") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/* line 69, ../sass/base.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'gorrasiUI';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
 
-326: #right {
-327: right:40px;
-328: }
-329: 
-330: #event_rotator{
-331:   width:$eventw - 5px;
-332:   height:$eventh;
-333:   position:relative;
-334:   overflow:hidden;
-335: }
-336: #slider{
+/* line 83, ../sass/base.scss */
+.icon-usuario:before {
+  content: "k";
+  font-size: 2em; }
 
-Backtrace:
-/home/matias/sitio_pg/sass/base.scss:331
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:416:in `coercion_factor'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:349:in `coerce'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:397:in `operate'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:108:in `minus'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/operation.rb:82:in `_perform'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `map'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `block in with_base'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:115:in `with_frame'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/stack.rb:79:in `with_base'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `map'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:36:in `css_tree'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/root_node.rb:20:in `render'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:268:in `render'
-/usr/share/koala/rubygems/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
-/usr/share/koala/rubygems/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
-/usr/share/koala/rubygems/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `each'
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/usr/share/koala/rubygems/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
-/usr/share/koala/rubygems/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
-/usr/share/koala/rubygems/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
-/usr/share/koala/rubygems/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
-/usr/share/koala/rubygems/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/usr/share/koala/rubygems/gems/compass-1.0.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/usr/share/koala/rubygems/gems/compass-1.0.1/bin/compass:30:in `block in <top (required)>'
-/usr/share/koala/rubygems/gems/compass-1.0.1/bin/compass:44:in `call'
-/usr/share/koala/rubygems/gems/compass-1.0.1/bin/compass:44:in `<top (required)>'
-/usr/share/koala/bin/compass:18:in `load'
-/usr/share/koala/bin/compass:18:in `<main>'
+/*---------------------------------| RESET |----------------------------------*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Incompatible units: 'px' and 'vw'.\A         on line 331 of /home/matias/sitio_pg/sass/base.scss\A \A 326: #right {\A 327: right:40px;\A 328: }\A 329: \A 330: #event_rotator{\A 331:   width:$eventw - 5px;\A 332:   height:$eventh;\A 333:   position:relative;\A 334:   overflow:hidden;\A 335: }\A 336: #slider{"; }
+/* line 95, ../sass/base.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  font-family: sans-serif;
+  /*=========== Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure, */
+/* line 119, ../sass/base.scss */
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+/* line 123, ../sass/base.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 126, ../sass/base.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 130, ../sass/base.scss */
+a {
+  text-decoration: none !important; }
+
+/*---------------| BORRA RECTANGULOS A LOS LINKS MOBILE |---------------------*/
+/* descomentar luego de compilar
+
+ a, a:active, a:focus {
+outline: none!important;
+-moz-outline-style: none!important;
+text-decoration: none;
+font-family: 'Open Sans', sans-serif;
+}
+
+  * {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0); and
+-webkit-focus-ring-color: rgba(0, 0, 0, 0);
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+*/
+/*---------------------------| Acordeon 8aDG |--------------------------------*/
+/* line 153, ../sass/base.scss */
+* {
+  font-family: sans-serif;
+  margin: 0; }
+
+/* line 154, ../sass/base.scss */
+dl {
+  margin: 0px auto;
+  width: 100%; }
+
+/* line 155, ../sass/base.scss */
+dt, dd {
+  padding: 20px; }
+
+/* line 156, ../sass/base.scss */
+dt {
+  background: #333333;
+  color: #fff;
+  border-bottom: 1px solid #141414;
+  border-top: 1px solid #4E4E4E;
+  cursor: pointer; }
+
+/* line 157, ../sass/base.scss */
+dd {
+  background: #F5F5F5;
+  display: none;
+  line-height: 1.6em;
+  text-align: center; }
+
+/* line 158, ../sass/base.scss */
+dt.activo, dt:hover {
+  background: #424242; }
+
+/* line 159, ../sass/base.scss */
+dd:first-child {
+  display: block; }
+
+/* line 160, ../sass/base.scss */
+dt:before {
+  content: "▸";
+  margin-right: 10px; }
+
+/* line 161, ../sass/base.scss */
+dt.activo:before {
+  content: "▾"; }
+
+/*-------------------------GridContainer 8aDG---------------------------------*/
+/* line 165, ../sass/base.scss */
+html, body {
+  height: 100%; }
+
+/* line 167, ../sass/base.scss */
+.grid-container {
+  width: 100vw;
+  height: 100%;
+  max-width: 100%;
+  background-color: rgba(255, 0, 0, 0.2);
+  display: table;
+  clear: both;
+  margin: 0 auto;
+  padding: 0px; }
+
+/*-- our cleafix hack -- */
+/* line 180, ../sass/base.scss */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+/* line 187, ../sass/base.scss */
+.rowfixed:before, .rowfixed:before {
+  content: "";
+  display: table;
+  clear: both;
+  margin: 0 12.5%; }
+
+/* line 195, ../sass/base.scss */
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 16.66%;
+  /*-- our gutter -- */
+  /*background-color: $clr_bs_top;*/ }
+
+/* line 203, ../sass/base.scss */
+.square {
+  height: 0;
+  padding-bottom: 12.5%; }
+
+/*----------------------          menu de lista ------------------------------*/
+/*----------------------sistema de columnas 8aDG------------------------------*/
+/* line 214, ../sass/base.scss */
+.col-1 {
+  width: 16.66667%; }
+
+/* line 215, ../sass/base.scss */
+.col-2 {
+  width: 33.33333%; }
+
+/* line 216, ../sass/base.scss */
+.col-3 {
+  width: 50%; }
+
+/* line 217, ../sass/base.scss */
+.col-4 {
+  width: 66.66667%; }
+
+/* line 218, ../sass/base.scss */
+.col-5 {
+  width: 83.33333%; }
+
+/* line 219, ../sass/base.scss */
+.col-6 {
+  width: 100%; }
+
+/* line 220, ../sass/base.scss */
+.col-81 {
+  width: 12.5%; }
+
+/* line 221, ../sass/base.scss */
+.col-82 {
+  width: 25%; }
+
+/* line 222, ../sass/base.scss */
+.col-84 {
+  width: 50%; }
+
+/* line 223, ../sass/base.scss */
+.col-86 {
+  width: 75%; }
+
+/* line 224, ../sass/base.scss */
+.col-88 {
+  width: 100%; }
+
+/* line 225, ../sass/base.scss */
+.outline, .outline * {
+  outline: 1px solid #F6A1A1; }
+
+/*---------------------------| MENOS DE 800PX |-------------------------------*/
+@media all and (max-width: 800px) {
+  /* line 232, ../sass/base.scss */
+  .col-0 {
+    width: 33.33%; }
+
+  /* line 233, ../sass/base.scss */
+  .col-1 {
+    width: 33.33%; }
+
+  /* line 234, ../sass/base.scss */
+  .col-2 {
+    width: 50%; }
+
+  /* line 235, ../sass/base.scss */
+  .col-3 {
+    width: 83.33%; }
+
+  /* line 236, ../sass/base.scss */
+  .col-4 {
+    width: 100%; }
+
+  /* line 237, ../sass/base.scss */
+  .col-5 {
+    width: 100%; }
+
+  /* line 238, ../sass/base.scss */
+  .col-6 {
+    width: 100%; }
+
+  /* line 239, ../sass/base.scss */
+  .col-81 {
+    width: 50%; }
+
+  /* line 240, ../sass/base.scss */
+  .col-82 {
+    width: 100%; }
+
+  /* line 241, ../sass/base.scss */
+  .col-84 {
+    width: 100%; }
+
+  /* line 242, ../sass/base.scss */
+  .col-86 {
+    width: 100%; }
+
+  /* line 243, ../sass/base.scss */
+  .col-88 {
+    width: 100%; }
+
+  /* line 244, ../sass/base.scss */
+  ul li {
+    width: 100%; }
+
+  /* line 245, ../sass/base.scss */
+  .row .col-2:last-of-type {
+    width: 100%; }
+
+  /* line 249, ../sass/base.scss */
+  .row .col-5 ~ .col-1 {
+    width: 100%; }
+
+  /* line 252, ../sass/base.scss */
+  .ch {
+    display: block !important; }
+
+  /*-----------------| contenido personalizado medium 8aDG |--------------------*/ }
+/*----------------------------| MENOS DE 650PX |------------------------------*/
+@media all and (max-width: 650px) {
+  /* line 264, ../sass/base.scss */
+  .col-0 {
+    width: 50%; }
+
+  /* line 265, ../sass/base.scss */
+  .col-1 {
+    width: 100%; }
+
+  /* line 266, ../sass/base.scss */
+  .col-2 {
+    width: 100%; }
+
+  /* line 267, ../sass/base.scss */
+  .col-3 {
+    width: 100%; }
+
+  /* line 268, ../sass/base.scss */
+  .col-4 {
+    width: 100%; }
+
+  /* line 269, ../sass/base.scss */
+  .col-5 {
+    width: 100%; }
+
+  /* line 270, ../sass/base.scss */
+  .col-6 {
+    width: 100%; }
+
+  /* line 271, ../sass/base.scss */
+  .col-ch {
+    width: 100%; }
+
+  /* line 272, ../sass/base.scss */
+  ul li {
+    width: 100% !important; }
+
+  /*--------------| MUESTRA SOLO EN RESOLUCIIONES GRANDES 8aDG |----------------*/
+  /* line 276, ../sass/base.scss */
+  .gd {
+    display: none; }
+
+  /* line 277, ../sass/base.scss */
+  .ch {
+    display: block !important; }
+
+  /*-----------------| contenido personalizado mobile 8aDG |--------------------*/ }
+/*-------------------| fin sistema de columnas 8aDG |-------------------------*/
+/*--------------------------| slider multi noticias|----------------------------*/
+/*.nav {
+position:relative;
+top: -50px;
+width: $eventw;
+height: 50px;
+text-align: center;
+background: #CDCEC2;
+color: #fff;
+font:normal 100 1em 'Roboto', sans-serif;
+}*/
+/* line 301, ../sass/base.scss */
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  text-align: center;
+  position: relative;
+  bottom: 3px; }
+
+/* line 310, ../sass/base.scss */
+#left, #right {
+  position: absolute;
+  cursor: pointer;
+  margin: 0 10px;
+  font: normal 100 5em 'Roboto', sans-serif;
+  color: #424242;
+  font-weight: 100;
+  width: 2px;
+  z-index: 999;
+  top: 330px; }
+
+/* line 322, ../sass/base.scss */
+#left {
+  left: 20px; }
+
+/* line 326, ../sass/base.scss */
+#right {
+  right: 40px; }
+
+/* line 330, ../sass/base.scss */
+#event_rotator {
+  width: 99vw;
+  height: 375px;
+  position: relative;
+  overflow: hidden; }
+
+/* line 336, ../sass/base.scss */
+#slider {
+  position: absolute;
+  height: 380px;
+  left: 0;
+  width: 99999%; }
+
+/* line 342, ../sass/base.scss */
+.event {
+  color: #fff;
+  font: normal 300 1em 'Roboto', sans-serif;
+  background: #e0e1d3;
+  float: left;
+  width: 99vw;
+  height: 375px; }
+
+/* line 350, ../sass/base.scss */
+.event:nth-child(odd) {
+  background: #D8D9CD; }
+
+/* line 354, ../sass/base.scss */
+.contenido {
+  padding: 100px; }
+
+/* line 358, ../sass/base.scss */
+.contenido p {
+  font-size: 1.5em; }
+
+/* line 361, ../sass/base.scss */
+.titulo_rot {
+  font: normal 100 5em 'Roboto', sans-serif;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
+
+/*--------------------------| slider multi noticias|----------------------------*/
+/* line 376, ../sass/base.scss */
+.top {
+  background: #043b7b;
+  min-height: 50px !important; }
+
+/* line 380, ../sass/base.scss */
+.hdr {
+  background: #ee8d03;
+  min-height: 150px !important; }
+
+/* line 384, ../sass/base.scss */
+.menu {
+  background: #004455;
+  min-height: 50px !important;
+  text-align: center; }
+
+/* line 389, ../sass/base.scss */
+.sldr {
+  background: #e5e5e5;
+  min-height: 375px !important; }
+
+/* line 393, ../sass/base.scss */
+.promo {
+  background: #dadada;
+  min-height: 360px !important; }
+
+/* line 398, ../sass/base.scss */
+.social {
+  background: #5a8996;
+  height: 400px !important; }
+
+/* line 402, ../sass/base.scss */
+.footer {
+  background: #333333;
+  min-height: 300px !important; }
+
+/* line 406, ../sass/base.scss */
+.bottom {
+  background: #043b7b;
+  min-height: 50px !important; }
+
+/* line 411, ../sass/base.scss */
+.der {
+  float: right; }
+
+/* line 413, ../sass/base.scss */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 12.50%;
+  display: inline-flex; }
+
+/* line 419, ../sass/base.scss */
+.menu ul li {
+  margin: 0;
+  padding: 0; }
+
+/* line 423, ../sass/base.scss */
+.menu a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+  text-align: center;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  color: #ee8d03; }
+
+/* line 435, ../sass/base.scss */
+.menu a:hover {
+  background: #fff;
+  color: #004455; }
+
+/* line 440, ../sass/base.scss */
+.vivo a {
+  color: #8d141c; }
+
+/* line 444, ../sass/base.scss */
+.contenidos a {
+  color: #0f335f; }
+
+/* line 448, ../sass/base.scss */
+.grilla a {
+  color: #0188c8; }
+
+/* line 452, ../sass/base.scss */
+.canal a {
+  color: #0f335f; }
+
+/* line 456, ../sass/base.scss */
+.cont_video {
+  min-height: 380px; }
+
+/* line 460, ../sass/base.scss */
+.logo {
+  padding: 34px 0 34px 34px;
+  font-weight: bold;
+  font-family: sans-serif; }
+
+/* line 466, ../sass/base.scss */
+.logo span {
+  position: relative;
+  top: -35px;
+  left: 10px; }
+
+/* line 472, ../sass/base.scss */
+.box_compra {
+  display: inline-flex;
+  height: 40px;
+  width: 98%;
+  padding: 30px 0 20px 0; }
+
+/* line 479, ../sass/base.scss */
+.item_cantidad {
+  width: 80%;
+  height: 40px; }
+
+/* line 484, ../sass/base.scss */
+.item_Quantity {
+  border: none;
+  width: 100%;
+  background: #fff;
+  text-align: left;
+  color: #454545;
+  font: italic 20px/150% 'Open Sans', Helvetica, sans-serif;
+  padding: 5px;
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
+  transition: background-color 1s ease-out;
+  height: 100%;
+  font-size: 14px; }
+
+/* line 501, ../sass/base.scss */
+.item_Quantity input {
+  padding: 0px;
+  margin: 0 auto;
+  border: none; }
+
+/* line 510, ../sass/base.scss */
+.item_add {
+  background-color: #004455;
+  color: #fff;
+  display: block;
+  height: 40px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 1.7em;
+  line-height: 1.6;
+  padding: 5px;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out; }
+
+/* line 527, ../sass/base.scss */
+.item_add span {
+  font-family: 'gorrasiUI', sans-serif;
+  color: #fff;
+  display: block;
+  width: 130px;
+  line-height: 1.6;
+  position: relative;
+  -webkit-transition: background-color 0.5s ease-out;
+  -moz-transition: background-color 0.5s ease-out;
+  -o-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out; }
+
+/* line 540, ../sass/base.scss */
+.ui {
+  font-family: 'gorrasiUI';
+  font-size: 2.5em; }
+
+/* line 545, ../sass/base.scss */
+.color1 {
+  color: #fff; }
+
+/* line 549, ../sass/base.scss */
+.usuario {
+  display: block;
+  height: 150px;
+  line-height: 150px;
+  white-space: nowrap; }
+
+/* line 556, ../sass/base.scss */
+.bag {
+  position: relative;
+  top: 50px;
+  padding: 0 30px; }
+
+/* line 562, ../sass/base.scss */
+.n_usuario {
+  position: relative;
+  top: -6px;
+  font-size: 14px;
+  color: #004455;
+  white-space: nowrap; }
+
+/* line 570, ../sass/base.scss */
+.cantidad {
+  position: relative;
+  top: 35px;
+  font-size: 0.75em;
+  color: #004455;
+  left: -20px; }
+
+/* line 577, ../sass/base.scss */
+.contactos {
+  position: relative;
+  color: #004455;
+  font: normal 600 0.75em 'Open Sans', sans-serif; }
+
+/* line 582, ../sass/base.scss */
+#iconos_contacto {
+  font-size: 1.5em;
+  color: #004455;
+  position: relative;
+  top: 6px; }
+
+/* line 586, ../sass/base.scss */
+.titulo_buscar {
+  position: relative;
+  font: normal 400 0.75em "Open Sans", sans-serif !important;
+  top: -38px;
+  left: 30px !important;
+  width: 50% !important; }
