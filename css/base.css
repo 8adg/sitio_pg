@@ -460,7 +460,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 395, ../sass/base.scss */
 .promo {
   background: #dadada;
-  min-height: 360px !important; }
+  min-height: 200px !important; }
 
 /* line 400, ../sass/base.scss */
 .social {
