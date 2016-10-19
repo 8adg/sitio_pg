@@ -306,20 +306,21 @@ bottom: 3px;
 }
 
 #left, #right{
+position: absolute;
 cursor: pointer;
 margin: 0 10px;
-font:normal 1.5em sans-serif;
+font:normal 100 3em 'Roboto', sans-serif;
 color: #fff;
 font-weight: 100;
 width: 2px;
 }
 
 #left{
-  text-align: left!important;
+left:10px;
 }
 
-#right{
-  text-align: right!important;
+#right {
+right:10px;
 }
 
 #event_rotator{
@@ -335,7 +336,7 @@ width: 2px;
   width:99999%;
 }
 .event{
-  color: #fff;
+  color:$dtClrBackActive;
   font:normal 300 1em 'Roboto', sans-serif;
   background:#e0e1d3;
   float:left;
@@ -357,12 +358,13 @@ padding: 100px;
 font:normal 100 5em 'Roboto', sans-serif;
 text-shadow: 1px 1px 10px rgba(0,0,0, 0.5);
 }
-.botones{
-  position:relative;
-  width:$eventw;
-  top:45%;
-  font-size:2em;
-}
+
+// .botones{
+//   position:relative;
+//   width:$eventw;
+//   top:45%;
+//   font-size:2em;
+// }
 
 
 /*--------------------------| slider multi noticias|----------------------------*/
