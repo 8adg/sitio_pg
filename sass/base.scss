@@ -327,17 +327,18 @@ left:20px;
 right:40px;
 }
 
-#event_rotator{
-  /*width:i;*/
+#event_rotator {
+  width:$eventw;
   height:$eventh;
   position:relative;
   overflow:hidden;
 }
-#slider{
+
+#slider {
   position:absolute;
   height:$eventh;
   left:0; 
-  width:99999%;
+  width:99999vw;
 }
 .event{
   color:$Fclr_titl;
