@@ -151,3 +151,13 @@ $(function() {
 $( "#open-busca" ).click(function() {
   $( "#caja-busca" ).toggle();
 });
+
+var element = document.documentElement;
+  
+if(element.scrollWidth > element.clientWidth) {
+  // Overflow detected; force scroll bar
+  element.style.overflow = 'scrollbar';
+} else {
+  // No overflow detected; prevent scroll bar
+  element.style.overflow = 'hidden';
+}
