@@ -396,19 +396,18 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 330, ../sass/base.scss */
 #event_rotator {
-  width: 100vw;
   height: 375px;
   position: relative;
   overflow: hidden; }
 
-/* line 336, ../sass/base.scss */
+/* line 335, ../sass/base.scss */
 #slider {
   position: absolute;
   height: 380px;
   left: 0;
   width: 99999%; }
 
-/* line 342, ../sass/base.scss */
+/* line 341, ../sass/base.scss */
 .event {
   color: #fff;
   font: normal 300 1em 'Roboto', sans-serif;
@@ -417,82 +416,82 @@ font:normal 100 1em 'Roboto', sans-serif;
   width: 100vw;
   height: 375px; }
 
-/* line 350, ../sass/base.scss */
+/* line 349, ../sass/base.scss */
 .event:nth-child(odd) {
   background: #D8D9CD; }
 
-/* line 354, ../sass/base.scss */
+/* line 353, ../sass/base.scss */
 .contenido {
   padding: 100px; }
 
-/* line 358, ../sass/base.scss */
+/* line 357, ../sass/base.scss */
 .contenido p {
   font-size: 1.5em; }
 
-/* line 361, ../sass/base.scss */
+/* line 360, ../sass/base.scss */
 .titulo_rot {
   font: normal 100 5em 'Roboto', sans-serif;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
 
 /*--------------------------| slider multi noticias|----------------------------*/
-/* line 376, ../sass/base.scss */
+/* line 375, ../sass/base.scss */
 .top {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 380, ../sass/base.scss */
+/* line 379, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
   min-height: 150px !important; }
 
-/* line 384, ../sass/base.scss */
+/* line 383, ../sass/base.scss */
 .menu {
   background: #004455;
   min-height: 50px !important;
   text-align: center; }
 
-/* line 389, ../sass/base.scss */
+/* line 388, ../sass/base.scss */
 .sldr {
   background: #e5e5e5;
   min-height: 375px !important; }
 
-/* line 393, ../sass/base.scss */
+/* line 392, ../sass/base.scss */
 .promo {
   background: #dadada;
   min-height: 360px !important; }
 
-/* line 398, ../sass/base.scss */
+/* line 397, ../sass/base.scss */
 .social {
   background: #5a8996;
   height: 400px !important; }
 
-/* line 402, ../sass/base.scss */
+/* line 401, ../sass/base.scss */
 .footer {
   background: #333333;
   min-height: 300px !important; }
 
-/* line 406, ../sass/base.scss */
+/* line 405, ../sass/base.scss */
 .bottom {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 411, ../sass/base.scss */
+/* line 410, ../sass/base.scss */
 .der {
   float: right; }
 
-/* line 413, ../sass/base.scss */
+/* line 412, ../sass/base.scss */
 .menu ul {
   list-style: none;
   margin: 0;
   padding: 0 12.50%;
   display: inline-flex; }
 
-/* line 419, ../sass/base.scss */
+/* line 418, ../sass/base.scss */
 .menu ul li {
   margin: 0;
   padding: 0; }
 
-/* line 423, ../sass/base.scss */
+/* line 422, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -504,56 +503,56 @@ font:normal 100 1em 'Roboto', sans-serif;
   transition: background-color 0.5s ease-out;
   color: #ee8d03; }
 
-/* line 435, ../sass/base.scss */
+/* line 434, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
   color: #004455; }
 
-/* line 440, ../sass/base.scss */
+/* line 439, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 444, ../sass/base.scss */
+/* line 443, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 448, ../sass/base.scss */
+/* line 447, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 452, ../sass/base.scss */
+/* line 451, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 456, ../sass/base.scss */
+/* line 455, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 460, ../sass/base.scss */
+/* line 459, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 466, ../sass/base.scss */
+/* line 465, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 472, ../sass/base.scss */
+/* line 471, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 479, ../sass/base.scss */
+/* line 478, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 484, ../sass/base.scss */
+/* line 483, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -569,13 +568,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   height: 100%;
   font-size: 14px; }
 
-/* line 501, ../sass/base.scss */
+/* line 500, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 510, ../sass/base.scss */
+/* line 509, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -591,7 +590,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 527, ../sass/base.scss */
+/* line 526, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -604,29 +603,29 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 540, ../sass/base.scss */
+/* line 539, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 545, ../sass/base.scss */
+/* line 544, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 549, ../sass/base.scss */
+/* line 548, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 556, ../sass/base.scss */
+/* line 555, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 562, ../sass/base.scss */
+/* line 561, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -634,7 +633,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #004455;
   white-space: nowrap; }
 
-/* line 570, ../sass/base.scss */
+/* line 569, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -642,20 +641,20 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #004455;
   left: -20px; }
 
-/* line 577, ../sass/base.scss */
+/* line 576, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 582, ../sass/base.scss */
+/* line 581, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 586, ../sass/base.scss */
+/* line 585, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
