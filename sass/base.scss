@@ -358,7 +358,9 @@ font:normal 100 5em 'Roboto', sans-serif;
 text-shadow: 1px 1px 10px rgba(0,0,0, 0.5);
 }
 .botones{
-  padding-top: 15px;
+  position:relative;
+  width:$eventw;
+  top:45%;
   font-size:2em;
 }
 
