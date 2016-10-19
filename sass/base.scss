@@ -328,7 +328,7 @@ right:40px;
 }
 
 #event_rotator{
-  width:$eventw;
+  width:$eventw -5px;
   height:$eventh;
   position:relative;
   overflow:hidden;
@@ -344,7 +344,7 @@ right:40px;
   font:normal 300 1em 'Roboto', sans-serif;
   background:#e0e1d3;
   float:left;
-  width:100%;
+  width:$eventw-5px;
   height:$eventh;
 }
 .event:nth-child(odd){
