@@ -464,7 +464,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 398, ../sass/base.scss */
 .social {
   background: #5a8996;
-  min-height: 400px !important; }
+  height: 400px !important; }
 
 /* line 402, ../sass/base.scss */
 .footer {
