@@ -453,9 +453,9 @@ html, body {
   text-align: center; }
 
 /* line 387, ../sass/base.scss */
-.video {
+.sldr {
   background: #e5e5e5;
-  min-height: 380px !important; }
+  min-height: 375px !important; }
 
 /* line 391, ../sass/base.scss */
 .menu_carr {
