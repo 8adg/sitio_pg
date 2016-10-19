@@ -328,6 +328,7 @@ right:40px;
 }
 
 #event_rotator{
+  width:$eventw - 1vw;
   height:$eventh;
   position:relative;
   overflow:hidden;
