@@ -5,7 +5,7 @@ $clr_bs_hdr: #ee8d03;
 $clr_bs_2: #004455;
 $clr_bs_menu: #004455;
 $clr_cont_vid: #e5e5e5;
-$clr_cont_carr: #1b1b1b;
+$clr_cont_carr: #dadada;
 $clr_cont_scl: #5a8996;
 $clr_bs_ftr: #333333;
 $Fclr_titl: #fff;
@@ -285,7 +285,9 @@ ul li { width: 100%;      }
 
 
 /*--------------------------| slider multi noticias|----------------------------*/
-.nav {
+
+
+/*.nav {
 position:relative;
 top: -50px;
 width: $eventw;
@@ -294,11 +296,11 @@ text-align: center;
 background: #CDCEC2;
 color: #fff;
 font:normal 100 1em 'Roboto', sans-serif;
-}
+}*/
 
 .nav a {
   text-decoration: none;
-  color: #fff;
+  color:$Fclr_titl;
 padding: 0 15px;
 text-align: center;
 position: relative;
@@ -338,7 +340,7 @@ right:40px;
   width:99999%;
 }
 .event{
-  color:#fff;
+  color:$Fclr_titl;
   font:normal 300 1em 'Roboto', sans-serif;
   background:#e0e1d3;
   float:left;
@@ -388,7 +390,7 @@ min-height: 50px!important;
   background:$clr_cont_vid;
   min-height: 375px!important;
 }
-.menu_carr{
+.promo{
   background:$clr_cont_carr ;
     min-height: 360px!important;
 }
