@@ -173,7 +173,7 @@ html, body {
   content: "";
   display: table;
   clear: both;
-  margin: 0 12.5vw; }
+  margin: 0 12.5%; }
 
 /* line 195, ../sass/base.scss */
 [class*='col-'] {
@@ -186,53 +186,53 @@ html, body {
 /* line 203, ../sass/base.scss */
 .square {
   height: 0;
-  padding-bottom: 12.5vw; }
+  padding-bottom: 12.5%; }
 
 /*----------------------          menu de lista ------------------------------*/
 /*----------------------sistema de columnas 8aDG------------------------------*/
 /* line 214, ../sass/base.scss */
 .col-1 {
-  width: 16.66667vw; }
+  width: 16.66667%; }
 
 /* line 215, ../sass/base.scss */
 .col-2 {
-  width: 33.33333vw; }
+  width: 33.33333%; }
 
 /* line 216, ../sass/base.scss */
 .col-3 {
-  width: 50vw; }
+  width: 50%; }
 
 /* line 217, ../sass/base.scss */
 .col-4 {
-  width: 66.66667vw; }
+  width: 66.66667%; }
 
 /* line 218, ../sass/base.scss */
 .col-5 {
-  width: 83.33333vw; }
+  width: 83.33333%; }
 
 /* line 219, ../sass/base.scss */
 .col-6 {
-  width: 100vw; }
+  width: 100%; }
 
 /* line 220, ../sass/base.scss */
 .col-81 {
-  width: 12.5vw; }
+  width: 12.5%; }
 
 /* line 221, ../sass/base.scss */
 .col-82 {
-  width: 25vw; }
+  width: 25%; }
 
 /* line 222, ../sass/base.scss */
 .col-84 {
-  width: 50vw; }
+  width: 50%; }
 
 /* line 223, ../sass/base.scss */
 .col-86 {
-  width: 75vw; }
+  width: 75%; }
 
 /* line 224, ../sass/base.scss */
 .col-88 {
-  width: 100vw; }
+  width: 100%; }
 
 /* line 225, ../sass/base.scss */
 .outline, .outline * {
@@ -270,23 +270,23 @@ html, body {
 
   /* line 239, ../sass/base.scss */
   .col-81 {
-    width: 50vw; }
+    width: 50%; }
 
   /* line 240, ../sass/base.scss */
   .col-82 {
-    width: 100vw; }
+    width: 100%; }
 
   /* line 241, ../sass/base.scss */
   .col-84 {
-    width: 100vw; }
+    width: 100%; }
 
   /* line 242, ../sass/base.scss */
   .col-86 {
-    width: 100vw; }
+    width: 100%; }
 
   /* line 243, ../sass/base.scss */
   .col-88 {
-    width: 100vw; }
+    width: 100%; }
 
   /* line 244, ../sass/base.scss */
   ul li {
@@ -396,7 +396,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 330, ../sass/base.scss */
 #event_rotator {
-  width: 100vw;
+  width: 98vw;
   height: 375px;
   position: relative;
   overflow: hidden; }
@@ -414,7 +414,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font: normal 300 1em 'Roboto', sans-serif;
   background: #e0e1d3;
   float: left;
-  width: 100vw;
+  width: 98vw;
   height: 375px; }
 
 /* line 350, ../sass/base.scss */
