@@ -328,7 +328,7 @@ right:40px;
 }
 
 #event_rotator{
-  width:100%;
+  width:$eventw;
   height:$eventh;
   position:relative;
   overflow:hidden;
@@ -344,7 +344,7 @@ right:40px;
   font:normal 300 1em 'Roboto', sans-serif;
   background:#e0e1d3;
   float:left;
-  width:100%;
+  width:$eventw;
   height:$eventh;
 }
 .event:nth-child(odd){
@@ -387,6 +387,8 @@ min-height: 50px!important;
   text-align:center;
 }
 .sldr{
+  width:100%!important;
+  overflow:hidden!important;
   background:$clr_cont_vid;
   min-height: 375px!important;
 }
