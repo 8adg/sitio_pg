@@ -1,22 +1,26 @@
 /*
-Error: Undefined variable: "$eventw-5px".
-        on line 347 of /home/matias/sitio_pg/sass/base.scss
+Error: Incompatible units: 'px' and 'vw'.
+        on line 331 of /home/matias/sitio_pg/sass/base.scss
 
-342: .event{
-343:   color:$Fclr_titl;
-344:   font:normal 300 1em 'Roboto', sans-serif;
-345:   background:#e0e1d3;
-346:   float:left;
-347:   width:$eventw-5px;
-348:   height:$eventh;
-349: }
-350: .event:nth-child(odd){
-351:  background:#D8D9CD;
-352: }
+326: #right {
+327: right:40px;
+328: }
+329: 
+330: #event_rotator{
+331:   width:$eventw - 5px;
+332:   height:$eventh;
+333:   position:relative;
+334:   overflow:hidden;
+335: }
+336: #slider{
 
 Backtrace:
-/home/matias/sitio_pg/sass/base.scss:347
-/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/matias/sitio_pg/sass/base.scss:331
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:416:in `coercion_factor'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:349:in `coerce'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:397:in `operate'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/value/number.rb:108:in `minus'
+/usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/operation.rb:82:in `_perform'
 /usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/script/tree/node.rb:50:in `perform'
 /usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
 /usr/share/koala/rubygems/gems/sass-3.4.9/lib/sass/tree/visitors/base.rb:36:in `visit'
@@ -72,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$eventw-5px\".\A         on line 347 of /home/matias/sitio_pg/sass/base.scss\A \A 342: .event{\A 343:   color:$Fclr_titl;\A 344:   font:normal 300 1em 'Roboto', sans-serif;\A 345:   background:#e0e1d3;\A 346:   float:left;\A 347:   width:$eventw-5px;\A 348:   height:$eventh;\A 349: }\A 350: .event:nth-child(odd){\A 351:  background:#D8D9CD;\A 352: }"; }
+  content: "Error: Incompatible units: 'px' and 'vw'.\A         on line 331 of /home/matias/sitio_pg/sass/base.scss\A \A 326: #right {\A 327: right:40px;\A 328: }\A 329: \A 330: #event_rotator{\A 331:   width:$eventw - 5px;\A 332:   height:$eventh;\A 333:   position:relative;\A 334:   overflow:hidden;\A 335: }\A 336: #slider{"; }
