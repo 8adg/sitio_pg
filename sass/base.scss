@@ -36,7 +36,7 @@ $Fclr_menu_canal:#0f335f;
 $BckColor:#fff;
 //slider
 //ancho y alto del event del slider
-$eventw:98vw;
+$eventw:100vw;
 $eventh:375px;
 // fin variables
 
@@ -165,7 +165,7 @@ dt.activo:before{ content: "▾"; }
 html ,body{ height: 100%; }
 
 .grid-container {
-        width:$eventw; 
+        width:100%; 
         height: 100%;
         max-width:$maxWidth;
         background-color: rgba(255,0,0 ,0.2);

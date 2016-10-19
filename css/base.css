@@ -151,7 +151,7 @@ html, body {
 
 /* line 167, ../sass/base.scss */
 .grid-container {
-  width: 98vw;
+  width: 100%;
   height: 100%;
   max-width: 100%;
   background-color: rgba(255, 0, 0, 0.2);
@@ -396,7 +396,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 330, ../sass/base.scss */
 #event_rotator {
-  width: 98vw;
+  width: 100vw;
   height: 375px;
   position: relative;
   overflow: hidden; }
@@ -414,7 +414,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font: normal 300 1em 'Roboto', sans-serif;
   background: #e0e1d3;
   float: left;
-  width: 98vw;
+  width: 100vw;
   height: 375px; }
 
 /* line 350, ../sass/base.scss */
