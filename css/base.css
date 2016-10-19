@@ -380,34 +380,35 @@ html, body {
   position: absolute;
   cursor: pointer;
   margin: 0 10px;
-  font: normal 100 3em 'Roboto', sans-serif;
+  font: normal 100 5em 'Roboto', sans-serif;
   color: #424242;
   font-weight: 100;
-  width: 2px; }
+  width: 2px;
+  z-index: 999; }
 
-/* line 318, ../sass/base.scss */
+/* line 319, ../sass/base.scss */
 #left {
   left: 10px; }
 
-/* line 322, ../sass/base.scss */
+/* line 323, ../sass/base.scss */
 #right {
   right: 10px; }
 
-/* line 326, ../sass/base.scss */
+/* line 327, ../sass/base.scss */
 #event_rotator {
   width: 100vw;
   height: 375px;
   position: relative;
   overflow: hidden; }
 
-/* line 332, ../sass/base.scss */
+/* line 333, ../sass/base.scss */
 #slider {
   position: absolute;
   height: 380px;
   left: 0;
   width: 99999%; }
 
-/* line 338, ../sass/base.scss */
+/* line 339, ../sass/base.scss */
 .event {
   color: #fff;
   font: normal 300 1em 'Roboto', sans-serif;
@@ -416,82 +417,82 @@ html, body {
   width: 100vw;
   height: 375px; }
 
-/* line 346, ../sass/base.scss */
+/* line 347, ../sass/base.scss */
 .event:nth-child(odd) {
   background: #D8D9CD; }
 
-/* line 350, ../sass/base.scss */
+/* line 351, ../sass/base.scss */
 .contenido {
   padding: 100px; }
 
-/* line 354, ../sass/base.scss */
+/* line 355, ../sass/base.scss */
 .contenido p {
   font-size: 1.5em; }
 
-/* line 357, ../sass/base.scss */
+/* line 358, ../sass/base.scss */
 .titulo_rot {
   font: normal 100 5em 'Roboto', sans-serif;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); }
 
 /*--------------------------| slider multi noticias|----------------------------*/
-/* line 372, ../sass/base.scss */
+/* line 373, ../sass/base.scss */
 .top {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 376, ../sass/base.scss */
+/* line 377, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
   min-height: 150px !important; }
 
-/* line 380, ../sass/base.scss */
+/* line 381, ../sass/base.scss */
 .menu {
   background: #004455;
   min-height: 50px !important;
   text-align: center; }
 
-/* line 385, ../sass/base.scss */
+/* line 386, ../sass/base.scss */
 .video {
   background: #e5e5e5;
   min-height: 380px !important; }
 
-/* line 389, ../sass/base.scss */
+/* line 390, ../sass/base.scss */
 .menu_carr {
   background: #1b1b1b;
   min-height: 360px !important; }
 
-/* line 393, ../sass/base.scss */
+/* line 394, ../sass/base.scss */
 .social {
   background: #5a8996;
   min-height: 400px !important; }
 
-/* line 397, ../sass/base.scss */
+/* line 398, ../sass/base.scss */
 .footer {
   background: #333333;
   min-height: 300px !important; }
 
-/* line 401, ../sass/base.scss */
+/* line 402, ../sass/base.scss */
 .bottom {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 406, ../sass/base.scss */
+/* line 407, ../sass/base.scss */
 .der {
   float: right; }
 
-/* line 408, ../sass/base.scss */
+/* line 409, ../sass/base.scss */
 .menu ul {
   list-style: none;
   margin: 0;
   padding: 0 12.50%;
   display: inline-flex; }
 
-/* line 414, ../sass/base.scss */
+/* line 415, ../sass/base.scss */
 .menu ul li {
   margin: 0;
   padding: 0; }
 
-/* line 418, ../sass/base.scss */
+/* line 419, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -503,56 +504,56 @@ html, body {
   transition: background-color 0.5s ease-out;
   color: #ee8d03; }
 
-/* line 430, ../sass/base.scss */
+/* line 431, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
   color: #004455; }
 
-/* line 435, ../sass/base.scss */
+/* line 436, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 439, ../sass/base.scss */
+/* line 440, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 443, ../sass/base.scss */
+/* line 444, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 447, ../sass/base.scss */
+/* line 448, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 451, ../sass/base.scss */
+/* line 452, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 455, ../sass/base.scss */
+/* line 456, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 461, ../sass/base.scss */
+/* line 462, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 467, ../sass/base.scss */
+/* line 468, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 474, ../sass/base.scss */
+/* line 475, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 479, ../sass/base.scss */
+/* line 480, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -568,13 +569,13 @@ html, body {
   height: 100%;
   font-size: 14px; }
 
-/* line 496, ../sass/base.scss */
+/* line 497, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 505, ../sass/base.scss */
+/* line 506, ../sass/base.scss */
 .item_add {
   background-color: #004455;
   color: #fff;
@@ -590,7 +591,7 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 522, ../sass/base.scss */
+/* line 523, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -603,29 +604,29 @@ html, body {
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 535, ../sass/base.scss */
+/* line 536, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 540, ../sass/base.scss */
+/* line 541, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 544, ../sass/base.scss */
+/* line 545, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 551, ../sass/base.scss */
+/* line 552, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 557, ../sass/base.scss */
+/* line 558, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -633,7 +634,7 @@ html, body {
   color: #004455;
   white-space: nowrap; }
 
-/* line 565, ../sass/base.scss */
+/* line 566, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -641,20 +642,20 @@ html, body {
   color: #004455;
   left: -20px; }
 
-/* line 572, ../sass/base.scss */
+/* line 573, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #004455;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 577, ../sass/base.scss */
+/* line 578, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 581, ../sass/base.scss */
+/* line 582, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;

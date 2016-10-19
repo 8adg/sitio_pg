@@ -309,10 +309,11 @@ bottom: 3px;
 position: absolute;
 cursor: pointer;
 margin: 0 10px;
-font:normal 100 3em 'Roboto', sans-serif;
+font:normal 100 5em 'Roboto', sans-serif;
 color:$dtClrBackActive;
 font-weight: 100;
 width: 2px;
+z-index:999;
 }
 
 #left{
