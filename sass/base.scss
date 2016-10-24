@@ -184,12 +184,13 @@ html ,body{ height: 100%;overflow-x:hidden;margin: 0 auto;padding: 0px;}
         clear:both;
     }
 
-       .rowfixed:before, .rowfixed:after{
+       .rowfixed:before,.rowfixed:before{
         content:"";
-          display: table;
+        display: table!important;
         clear:both;
-        margin:0 $margenGrilla2;
+        margin:0 $margenGrilla2!important;
     }
+
 
 
     [class*='col-'] {
