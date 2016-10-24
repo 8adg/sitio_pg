@@ -671,8 +671,8 @@ font:normal 100 1em 'Roboto', sans-serif;
 /**** producto***/
 /* line 600, ../sass/base.scss */
 .img_frame {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
   transform: rotate(120deg);
   margin: auto;
