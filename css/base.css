@@ -172,7 +172,7 @@ html, body {
   clear: both; }
 
 /* line 187, ../sass/base.scss */
-.rowfixed:before, .rowfixed:before {
+.rowfixed:before, .rowfixed:after {
   content: "";
   display: table;
   clear: both;

@@ -184,7 +184,7 @@ html ,body{ height: 100%;overflow-x:hidden;margin: 0 auto;padding: 0px;}
         clear:both;
     }
 
-       .rowfixed:before,.rowfixed:before{
+       .rowfixed:before, .rowfixed:after{
         content:"";
           display: table;
         clear:both;
