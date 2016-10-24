@@ -466,7 +466,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 .promo {
   background: #dadada;
   min-height: 200px !important;
-  background: #dadada repeat center url("img/trama_electro.svg"); }
+  background: #dadada repeat center url("../img/trama_electro.svg"); }
 
 /* line 404, ../sass/base.scss */
 .productos {
