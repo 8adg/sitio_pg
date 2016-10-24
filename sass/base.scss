@@ -595,55 +595,7 @@ left: 40px !important;
 width: 50% !important;
 }
 /**** producto***/
-.btn_buscar {
-background: #6A2D87;
-width:100%;
-/*min-height:160px;*/
-display:block; 
-color:#4eb56d;
-text-align: center;
-font-size:3em;
-padding:46.50px 0;
-        -webkit-transition: background-color 0.3s ease-out;
-  -moz-transition: background-color 0.3s ease-out;
-  -o-transition: background-color 0.3s ease-out;
-  transition: background-color 0.3s ease-out;
-}
 
-.btn_carrito {
-text-align:center;
-background:#572271;
-width:100%;
-/*min-height:160px;*/
-display:block; 
-color:#4eb56d;
-text-align: center;
-font-size: 3.7em;
-padding: 39px 0;
--webkit-transition: background-color 0.3s ease-out;
--moz-transition: background-color 0.3s ease-out;
--o-transition: background-color 0.3s ease-out;
-transition: background-color 0.3s ease-out;
-}
-.btn_carrito:hover, .btn_carrito:active, .btn_carrito:active{
-background:#763D92;
-}
-
-.cantidad{
-position: relative;
-font-weight: bold;
-font-size: 0.3em;
-top: -26px;
-left: 40px;
-color: rgb(255, 255, 255);
-padding: 1px 8px;
-background: #ff0082;
-border-radius: 50%;
-z-index: 1;
-}
-.btn_buscar:hover, .btn_buscar:active{
-background:#60277a;
-}
 
 .img_frame{
 width:150px;
@@ -706,7 +658,7 @@ color:rgb(51, 3, 74);
 margin:8px 0 8px;
 }
 
-.box_compra{
+.box_compra_tiny{
 display:inline-flex;
 height:47px;
 width:163px;
