@@ -737,7 +737,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   width: 163px; }
 
 /* line 667, ../sass/base.scss */
-.item_add {
+.item_add_ch {
   font-family: 'oliviaUI', sans-serif;
   background-color: #ff0082;
   color: #fff;
@@ -758,7 +758,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   background: #c70066; }
 
 /* line 689, ../sass/base.scss */
-.item_Quantity {
+.item_Quantity_ch {
   border: none;
   width: 110px;
   height: 45px;
