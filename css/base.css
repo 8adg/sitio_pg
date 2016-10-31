@@ -822,3 +822,11 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 748, ../sass/base.scss */
 .flecha_caja_promo {
   fill: #573301 !important; }
+
+/* line 752, ../sass/base.scss */
+.imapromo {
+  position: relative;
+  width: 200px;
+  z-index: 999;
+  top: 70px;
+  left: 185px; }
