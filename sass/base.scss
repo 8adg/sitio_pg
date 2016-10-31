@@ -456,6 +456,7 @@ color:$clr_bs_menu;
   -ms-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
+  z-index:999;
 }
 .menu ul li ul li { 
   background: $BckColor; 
