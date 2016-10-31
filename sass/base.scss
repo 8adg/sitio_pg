@@ -493,9 +493,13 @@ min-height: 380px;
 }
 
 .logo{
-  padding: 34px 0 34px 34px;
+  padding: 14px 0 14px 14px;
   font-weight:bold;
   font-family:sans-serif;
+}
+
+.logo img{
+  width:100px;
 }
 
 .logo span{
