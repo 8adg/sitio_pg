@@ -199,10 +199,19 @@ html ,body{ height: 100%;overflow-x:hidden;margin: 0 auto;padding: 0px;backgroun
         /*background-color: $clr_bs_top;*/
     }
 
+/*---------------------- cuadrados perfectos para las columnas ------------------------------*/
+
     .square {
     height: 0;
     padding-bottom: $bsColGrid2;
 }
+
+    .square1 {height: 0;padding-bottom: $bsColGrid3  ;}
+    .square2 {height: 0;padding-bottom: $bsColGrid3*2;}
+    .square3 {height: 0;padding-bottom: $bsColGrid3*3;}
+    .square4 {height: 0;padding-bottom: $bsColGrid3*4;}
+    .square5 {height: 0;padding-bottom: $bsColGrid3*5;}
+    .square6 {height: 0;padding-bottom: $bsColGrid3*6;}
 
 /*----------------------          menu de lista ------------------------------*/
 
