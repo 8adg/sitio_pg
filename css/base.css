@@ -513,30 +513,32 @@ font:normal 100 1em 'Roboto', sans-serif;
 .footer {
   background: #333333;
   min-height: 300px !important;
-  color: #ee8d03; }
+  color: #ee8d03;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 300; }
 
-/* line 427, ../sass/base.scss */
+/* line 430, ../sass/base.scss */
 .bottom {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 432, ../sass/base.scss */
+/* line 435, ../sass/base.scss */
 .der {
   float: right; }
 
-/* line 434, ../sass/base.scss */
+/* line 437, ../sass/base.scss */
 .menu ul {
   list-style: none;
   margin: 0;
   padding: 0 12.50%;
   display: inline-flex; }
 
-/* line 440, ../sass/base.scss */
+/* line 443, ../sass/base.scss */
 .menu ul li {
   margin: 0;
   padding: 0; }
 
-/* line 444, ../sass/base.scss */
+/* line 447, ../sass/base.scss */
 .menu a {
   text-decoration: none;
   display: inline-block;
@@ -548,12 +550,12 @@ font:normal 100 1em 'Roboto', sans-serif;
   transition: background-color 0.5s ease-out;
   color: #ee8d03; }
 
-/* line 456, ../sass/base.scss */
+/* line 459, ../sass/base.scss */
 .menu a:hover, a:active, a:focus {
   background: #fff;
   color: #3E3E3E; }
 
-/* line 462, ../sass/base.scss */
+/* line 465, ../sass/base.scss */
 .menu ul li ul {
   padding: 0;
   position: absolute;
@@ -571,72 +573,72 @@ font:normal 100 1em 'Roboto', sans-serif;
   -transition: opacity 0.2s;
   z-index: 999; }
 
-/* line 479, ../sass/base.scss */
+/* line 482, ../sass/base.scss */
 .menu ul li ul li {
   background: #fff;
   display: block;
   color: #3E3E3E;
   padding: 10px; }
 
-/* line 485, ../sass/base.scss */
+/* line 488, ../sass/base.scss */
 .menu ul li ul li:hover {
   background: #fff; }
 
-/* line 486, ../sass/base.scss */
+/* line 489, ../sass/base.scss */
 .menu ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible; }
 
-/* line 492, ../sass/base.scss */
+/* line 495, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 496, ../sass/base.scss */
+/* line 499, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 500, ../sass/base.scss */
+/* line 503, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 504, ../sass/base.scss */
+/* line 507, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 508, ../sass/base.scss */
+/* line 511, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 512, ../sass/base.scss */
+/* line 515, ../sass/base.scss */
 .logo {
   padding: 25px 0 20px 25px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 518, ../sass/base.scss */
+/* line 521, ../sass/base.scss */
 .logo img {
   width: 100px; }
 
-/* line 522, ../sass/base.scss */
+/* line 525, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -48px;
   left: 10px; }
 
-/* line 528, ../sass/base.scss */
+/* line 531, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 535, ../sass/base.scss */
+/* line 538, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 540, ../sass/base.scss */
+/* line 543, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -652,13 +654,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   height: 100%;
   font-size: 14px; }
 
-/* line 557, ../sass/base.scss */
+/* line 560, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 566, ../sass/base.scss */
+/* line 569, ../sass/base.scss */
 .item_add {
   background-color: #3E3E3E;
   color: #fff;
@@ -674,7 +676,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 583, ../sass/base.scss */
+/* line 586, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -687,29 +689,29 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 596, ../sass/base.scss */
+/* line 599, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 601, ../sass/base.scss */
+/* line 604, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 605, ../sass/base.scss */
+/* line 608, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 612, ../sass/base.scss */
+/* line 615, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 618, ../sass/base.scss */
+/* line 621, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -717,7 +719,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   white-space: nowrap; }
 
-/* line 626, ../sass/base.scss */
+/* line 629, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -725,20 +727,20 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   left: -20px; }
 
-/* line 633, ../sass/base.scss */
+/* line 636, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #3E3E3E;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 638, ../sass/base.scss */
+/* line 641, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #3E3E3E;
   position: relative;
   top: 6px; }
 
-/* line 642, ../sass/base.scss */
+/* line 645, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
@@ -747,7 +749,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   width: 50% !important; }
 
 /**** producto***/
-/* line 652, ../sass/base.scss */
+/* line 655, ../sass/base.scss */
 .img_frame {
   width: 200px;
   height: 200px;
@@ -758,7 +760,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   bottom: 0;
   left: 0; }
 
-/* line 663, ../sass/base.scss */
+/* line 666, ../sass/base.scss */
 .prod_cont {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
@@ -771,11 +773,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 676, ../sass/base.scss */
+/* line 679, ../sass/base.scss */
 .prod_cont:hover, .prod_cont:active, .prod_cont:focus {
   background: #DADADA; }
 
-/* line 680, ../sass/base.scss */
+/* line 683, ../sass/base.scss */
 .item_name {
   color: #454545;
   font-weight: 600;
@@ -785,7 +787,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-family: 'PT Sans', sans-serif;
   text-transform: lowercase !important; }
 
-/* line 690, ../sass/base.scss */
+/* line 693, ../sass/base.scss */
 .desc {
   color: #7e7e7e;
   font-size: 15px;
@@ -794,11 +796,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   margin-left: 38px;
   min-height: 70px; }
 
-/* line 699, ../sass/base.scss */
+/* line 702, ../sass/base.scss */
 .desc p {
   padding: 5px; }
 
-/* line 703, ../sass/base.scss */
+/* line 706, ../sass/base.scss */
 .item_price {
   font-weight: 600;
   font-stretch: normal;
@@ -806,13 +808,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   margin: 8px 0 8px; }
 
-/* line 712, ../sass/base.scss */
+/* line 715, ../sass/base.scss */
 .box_compra_tiny {
   display: inline-flex;
   height: 47px;
   width: 163px; }
 
-/* line 718, ../sass/base.scss */
+/* line 721, ../sass/base.scss */
 .item_add_ch {
   font-family: 'gorrasiUI', sans-serif;
   background-color: #ee8d03;
@@ -828,13 +830,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 735, ../sass/base.scss */
+/* line 738, ../sass/base.scss */
 .item_add_ch:hover, .item_add_ch:focus, .item_add_ch:active {
   font-family: 'gorrasiUI', sans-serif;
   color: #000;
   background: rgba(0, 0, 0, 0.2); }
 
-/* line 741, ../sass/base.scss */
+/* line 744, ../sass/base.scss */
 .item_Quantity_ch {
   border: none;
   width: 110px;
@@ -844,19 +846,19 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #454545;
   font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif; }
 
-/* line 751, ../sass/base.scss */
+/* line 754, ../sass/base.scss */
 .custom {
   background: #f7f7f7; }
 
-/* line 756, ../sass/base.scss */
+/* line 759, ../sass/base.scss */
 .caja_promo {
   fill: #ee8d03 !important; }
 
-/* line 759, ../sass/base.scss */
+/* line 762, ../sass/base.scss */
 .flecha_caja_promo {
   fill: #573301 !important; }
 
-/* line 763, ../sass/base.scss */
+/* line 766, ../sass/base.scss */
 .imapromo {
   position: relative;
   z-index: 999;
