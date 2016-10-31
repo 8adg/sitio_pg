@@ -515,7 +515,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #4F4F4F; }
 
 /* line 444, ../sass/base.scss */
-.menu ul li a ul {
+.menu ul li ul {
   padding: 0;
   position: absolute;
   top: 48px;
@@ -534,14 +534,14 @@ font:normal 100 1em 'Roboto', sans-serif;
   -transition: opacity 0.2s; }
 
 /* line 462, ../sass/base.scss */
-.menu ul li a ul li {
+.menu ul li ul li {
   background: #555;
   display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000; }
 
 /* line 468, ../sass/base.scss */
-.menu ul li a ul li:hover {
+.menu ul li ul li:hover {
   background: #666; }
 
 /* line 469, ../sass/base.scss */
