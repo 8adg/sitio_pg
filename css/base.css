@@ -740,7 +740,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 665, ../sass/base.scss */
 .prod_cont:hover, .prod_cont:active, .prod_cont:focus {
-  background: #f2f2f2; }
+  background: #dadada; }
 
 /* line 669, ../sass/base.scss */
 .item_name {
