@@ -461,7 +461,7 @@ color:$clr_bs_menu;
 .menu ul li ul li { 
   background: $BckColor; 
   display: block; 
-  color: #fff;
+  color:$clr_bs_menu;
   padding:10px;
 }
 .menu ul li ul li:hover { background: $BckColor; }
