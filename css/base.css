@@ -450,7 +450,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 386, ../sass/base.scss */
 .menu {
-  background: #004455;
+  background: #4F4F4F;
   min-height: 50px !important;
   text-align: center; }
 
@@ -512,53 +512,89 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 439, ../sass/base.scss */
 .menu a:hover {
   background: #fff;
-  color: #004455; }
+  color: #4F4F4F; }
 
 /* line 444, ../sass/base.scss */
+.menu ul li a ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s; }
+
+/* line 462, ../sass/base.scss */
+.menu ul li a ul li {
+  background: #555;
+  display: block;
+  color: #fff;
+  text-shadow: 0 -1px 0 #000; }
+
+/* line 468, ../sass/base.scss */
+.menu ul li a ul li:hover {
+  background: #666; }
+
+/* line 469, ../sass/base.scss */
+.menu ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible; }
+
+/* line 475, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 448, ../sass/base.scss */
+/* line 479, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 452, ../sass/base.scss */
+/* line 483, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 456, ../sass/base.scss */
+/* line 487, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 460, ../sass/base.scss */
+/* line 491, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 464, ../sass/base.scss */
+/* line 495, ../sass/base.scss */
 .logo {
   padding: 34px 0 34px 34px;
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 470, ../sass/base.scss */
+/* line 501, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -35px;
   left: 10px; }
 
-/* line 476, ../sass/base.scss */
+/* line 507, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 483, ../sass/base.scss */
+/* line 514, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 488, ../sass/base.scss */
+/* line 519, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -574,15 +610,15 @@ font:normal 100 1em 'Roboto', sans-serif;
   height: 100%;
   font-size: 14px; }
 
-/* line 505, ../sass/base.scss */
+/* line 536, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 514, ../sass/base.scss */
+/* line 545, ../sass/base.scss */
 .item_add {
-  background-color: #004455;
+  background-color: #4F4F4F;
   color: #fff;
   display: block;
   height: 40px;
@@ -596,7 +632,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 531, ../sass/base.scss */
+/* line 562, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -609,58 +645,58 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 544, ../sass/base.scss */
+/* line 575, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 549, ../sass/base.scss */
+/* line 580, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 553, ../sass/base.scss */
+/* line 584, ../sass/base.scss */
 .usuario {
   display: block;
   height: 150px;
   line-height: 150px;
   white-space: nowrap; }
 
-/* line 560, ../sass/base.scss */
+/* line 591, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 566, ../sass/base.scss */
+/* line 597, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
   font-size: 14px;
-  color: #004455;
+  color: #4F4F4F;
   white-space: nowrap; }
 
-/* line 574, ../sass/base.scss */
+/* line 605, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
   font-size: 0.75em;
-  color: #004455;
+  color: #4F4F4F;
   left: -20px; }
 
-/* line 581, ../sass/base.scss */
+/* line 612, ../sass/base.scss */
 .contactos {
   position: relative;
-  color: #004455;
+  color: #4F4F4F;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 586, ../sass/base.scss */
+/* line 617, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #004455;
   position: relative;
   top: 6px; }
 
-/* line 590, ../sass/base.scss */
+/* line 621, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
@@ -669,7 +705,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   width: 50% !important; }
 
 /**** producto***/
-/* line 600, ../sass/base.scss */
+/* line 631, ../sass/base.scss */
 .img_frame {
   width: 200px;
   height: 200px;
@@ -680,7 +716,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   bottom: 0;
   left: 0; }
 
-/* line 611, ../sass/base.scss */
+/* line 642, ../sass/base.scss */
 .prod_cont {
   font-family: 'Open Sans', sans-serif;
   margin: 5px;
@@ -692,11 +728,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 623, ../sass/base.scss */
+/* line 654, ../sass/base.scss */
 .prod_cont:hover, .prod_cont:active, .prod_cont:focus {
   background: #f2f2f2; }
 
-/* line 627, ../sass/base.scss */
+/* line 658, ../sass/base.scss */
 .item_name {
   color: #454545;
   font-weight: 600;
@@ -706,7 +742,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-family: 'PT Sans', sans-serif;
   text-transform: lowercase !important; }
 
-/* line 637, ../sass/base.scss */
+/* line 668, ../sass/base.scss */
 .desc {
   color: #7e7e7e;
   font-size: 15px;
@@ -715,28 +751,28 @@ font:normal 100 1em 'Roboto', sans-serif;
   margin-left: 38px;
   min-height: 70px; }
 
-/* line 646, ../sass/base.scss */
+/* line 677, ../sass/base.scss */
 .desc p {
   padding: 5px; }
 
-/* line 650, ../sass/base.scss */
+/* line 681, ../sass/base.scss */
 .item_price {
   font-weight: 600;
   font-stretch: normal;
   font-size: 22.5px;
-  color: #004455;
+  color: #4F4F4F;
   margin: 8px 0 8px; }
 
-/* line 659, ../sass/base.scss */
+/* line 690, ../sass/base.scss */
 .box_compra_tiny {
   display: inline-flex;
   height: 47px;
   width: 163px; }
 
-/* line 665, ../sass/base.scss */
+/* line 696, ../sass/base.scss */
 .item_add_ch {
   font-family: 'gorrasiUI', sans-serif;
-  background-color: #004455;
+  background-color: #4F4F4F;
   color: #fff;
   display: block;
   height: 36px;
@@ -749,12 +785,12 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 682, ../sass/base.scss */
+/* line 713, ../sass/base.scss */
 .item_add_ch:hover, .item_add_ch:focus, .item_add_ch:active {
   font-family: 'gorrasiUI', sans-serif;
   background: #043b7b; }
 
-/* line 687, ../sass/base.scss */
+/* line 718, ../sass/base.scss */
 .item_Quantity_ch {
   border: none;
   width: 110px;
@@ -764,6 +800,6 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #454545;
   font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif; }
 
-/* line 697, ../sass/base.scss */
+/* line 728, ../sass/base.scss */
 .custom {
   background: #f7f7f7; }
