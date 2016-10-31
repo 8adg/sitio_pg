@@ -436,10 +436,11 @@ transition: background-color 0.5s ease-out;
 color:$clr_bs_hdr;
 }
 
-.menu a:hover{
+.menu a:hover, a:active, a:focus{
 background: $BckColor;
 color:$clr_bs_menu;
 }
+
 
 .menu ul li ul {
   padding: 0;
