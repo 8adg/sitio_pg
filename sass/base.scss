@@ -444,9 +444,7 @@ color:$clr_bs_menu;
 .menu ul li ul {
   padding: 0;
   position: absolute;
-  top: 48px;
-  left: 0;
-  width: 150px;
+  width: 200px;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -460,12 +458,12 @@ color:$clr_bs_menu;
   -transition: opacity 0.2s;
 }
 .menu ul li ul li { 
-  background: #555; 
+  background: $BckColor; 
   display: block; 
   color: #fff;
-  text-shadow: 0 -1px 0 #000;
+  padding:10px;
 }
-.menu ul li ul li:hover { background: #666; }
+.menu ul li ul li:hover { background: $BckColor; }
 .menu ul li:hover ul {
   display: block;
   opacity: 1;
