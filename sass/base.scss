@@ -394,9 +394,16 @@ min-height: 50px!important;
    text-align: center;
 }
 .promo {
+  text-align:center;
   background:$clr_cont_carr ;
     min-height: 200px!important;
     background:$clr_cont_carr repeat center url('../img/trama_electro.svg');
+}
+
+.promo h2{
+font:italic 300 5em 'Roboto', sans-serif;
+color:$dtClrBtmline;
+padding:10px;
 }
 
 .productos{
