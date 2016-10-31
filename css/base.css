@@ -571,7 +571,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 495, ../sass/base.scss */
 .logo {
-  padding: 14px 0 14px 14px;
+  padding: 25px 0 20px 25px;
   font-weight: bold;
   font-family: sans-serif; }
 
@@ -582,7 +582,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 505, ../sass/base.scss */
 .logo span {
   position: relative;
-  top: -35px;
+  top: -48px;
   left: 10px; }
 
 /* line 511, ../sass/base.scss */
