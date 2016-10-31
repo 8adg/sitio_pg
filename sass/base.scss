@@ -742,10 +742,10 @@ font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif;
     background: rgb(247, 247, 247);
 }
 
-#caja_promo{
+.img_promo#caja_promo{
   fill:$clr_bs_hdr!important;
 }
-#flecha_caja_promo{
+.img_promo#flecha_caja_promo{
   fill: darken($clr_bs_hdr , 30% )!important;
 }
 
