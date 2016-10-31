@@ -782,8 +782,8 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 707, ../sass/base.scss */
 .item_add_ch {
   font-family: 'gorrasiUI', sans-serif;
-  background-color: #3E3E3E;
-  color: #fff;
+  background-color: #ee8d03;
+  color: #3E3E3E;
   display: block;
   height: 36px;
   width: 50px;
