@@ -441,6 +441,37 @@ background: $BckColor;
 color:$clr_bs_menu;
 }
 
+.menu ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+.menu ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+.menu ul li ul li:hover { background: #666; }
+.menu ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
 .vivo a{
   color: $Fclr_menu_vivo;
 }
