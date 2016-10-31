@@ -470,7 +470,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 .promo h2 {
   font: italic 700 2.5em 'Open Sans', sans-serif;
   color: #141414;
-  padding: 70px; }
+  padding: 100px 0; }
 
 /* line 407, ../sass/base.scss */
 .productos {
