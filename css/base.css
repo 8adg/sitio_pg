@@ -450,7 +450,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 386, ../sass/base.scss */
 .menu {
-  background: #4F4F4F;
+  background: #3E3E3E;
   min-height: 50px !important;
   text-align: center; }
 
@@ -512,7 +512,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 439, ../sass/base.scss */
 .menu a:hover, a:active, a:focus {
   background: #fff;
-  color: #4F4F4F; }
+  color: #3E3E3E; }
 
 /* line 445, ../sass/base.scss */
 .menu ul li ul {
@@ -536,7 +536,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 .menu ul li ul li {
   background: #fff;
   display: block;
-  color: #4F4F4F;
+  color: #3E3E3E;
   padding: 10px; }
 
 /* line 468, ../sass/base.scss */
@@ -621,7 +621,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 549, ../sass/base.scss */
 .item_add {
-  background-color: #4F4F4F;
+  background-color: #3E3E3E;
   color: #fff;
   display: block;
   height: 40px;
@@ -675,7 +675,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   position: relative;
   top: -6px;
   font-size: 14px;
-  color: #4F4F4F;
+  color: #3E3E3E;
   white-space: nowrap; }
 
 /* line 609, ../sass/base.scss */
@@ -683,19 +683,19 @@ font:normal 100 1em 'Roboto', sans-serif;
   position: relative;
   top: 35px;
   font-size: 0.75em;
-  color: #4F4F4F;
+  color: #3E3E3E;
   left: -20px; }
 
 /* line 616, ../sass/base.scss */
 .contactos {
   position: relative;
-  color: #4F4F4F;
+  color: #3E3E3E;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
 /* line 621, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
-  color: #004455;
+  color: #3E3E3E;
   position: relative;
   top: 6px; }
 
@@ -763,7 +763,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-weight: 600;
   font-stretch: normal;
   font-size: 22.5px;
-  color: #4F4F4F;
+  color: #3E3E3E;
   margin: 8px 0 8px; }
 
 /* line 694, ../sass/base.scss */
@@ -775,7 +775,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 700, ../sass/base.scss */
 .item_add_ch {
   font-family: 'gorrasiUI', sans-serif;
-  background-color: #4F4F4F;
+  background-color: #3E3E3E;
   color: #fff;
   display: block;
   height: 36px;

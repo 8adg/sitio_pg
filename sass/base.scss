@@ -2,8 +2,8 @@
 
 $clr_bs_top: #043b7b;
 $clr_bs_hdr: #ee8d03;
-$clr_bs_2: #4F4F4F;
-$clr_bs_menu: #4F4F4F;
+$clr_bs_2: #3E3E3E;
+$clr_bs_menu: #3E3E3E;
 $clr_cont_vid: #e5e5e5;
 $clr_cont_carr: #dadada;
 $clr_cont_scl: #5a8996;
@@ -619,7 +619,7 @@ left: -20px;
   font:normal 600 0.75em 'Open Sans', sans-serif;
   }
 #iconos_contacto {
-font-size:1.5em;color:#004455;position: relative;top: 6px;
+font-size:1.5em;color:$clr_bs_2;position: relative;top: 6px;
 }
 
 .titulo_buscar {
