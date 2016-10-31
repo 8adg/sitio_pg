@@ -816,9 +816,9 @@ font:normal 100 1em 'Roboto', sans-serif;
   background: #f7f7f7; }
 
 /* line 745, ../sass/base.scss */
-path#caja_promo {
+.caja_promo path {
   fill: #ee8d03 !important; }
 
 /* line 748, ../sass/base.scss */
-path#flecha_caja_promo {
+.flecha_caja_promo path {
   fill: #573301 !important; }
