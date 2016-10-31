@@ -825,7 +825,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 752, ../sass/base.scss */
 .imapromo {
-  position: relative;
+  position: absolute;
   width: 200px;
   z-index: 999;
   top: 70px;
