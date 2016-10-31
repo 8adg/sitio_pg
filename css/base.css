@@ -69,7 +69,7 @@ footer, header, hgroup, menu, nav, section {
 
 /* line 123, ../sass/base.scss */
 ol, ul {
-  list-style: none; }
+  list-style: none !important; }
 
 /* line 126, ../sass/base.scss */
 table {
