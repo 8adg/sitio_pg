@@ -150,7 +150,8 @@ html, body {
   height: 100%;
   overflow-x: hidden;
   margin: 0 auto;
-  padding: 0px; }
+  padding: 0px;
+  background: #fff; }
 
 /* line 167, ../sass/base.scss */
 .grid-container {
