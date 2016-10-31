@@ -791,9 +791,10 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 717, ../sass/base.scss */
 .item_add_ch:hover, .item_add_ch:focus, .item_add_ch:active {
   font-family: 'gorrasiUI', sans-serif;
+  color: #000;
   background: rgba(0, 0, 0, 0.2); }
 
-/* line 722, ../sass/base.scss */
+/* line 723, ../sass/base.scss */
 .item_Quantity_ch {
   border: none;
   width: 110px;
@@ -803,6 +804,6 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #454545;
   font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif; }
 
-/* line 732, ../sass/base.scss */
+/* line 733, ../sass/base.scss */
 .custom {
   background: #f7f7f7; }
