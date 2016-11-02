@@ -537,7 +537,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   list-style: none;
   margin: 0;
   white-space: nowrap;
-  font-size: 12px;
+  font-size: 90vw;
   display: inline-flex; }
 
 /* line 449, ../sass/base.scss */
