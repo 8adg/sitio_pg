@@ -1009,3 +1009,8 @@ font:normal 100 1em 'Roboto', sans-serif;
   top: -400px;
   left: 150px;
 }
+
+/* line 780, ../sass/base.scss */
+.tope {
+  padding-top: 50px;
+}
