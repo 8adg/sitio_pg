@@ -168,7 +168,7 @@ html, body {
   overflow-x: hidden;
   margin: 0 auto;
   padding: 0px;
-  background: #fff;
+  background: #D6D6D6;
 }
 
 /* line 167, ../sass/base.scss */
@@ -594,7 +594,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 418, ../sass/base.scss */
 .productos {
-  background: #fff;
+  background: #D6D6D6;
   min-height: 400px !important;
   margin-top: 50px;
 }
@@ -654,7 +654,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 465, ../sass/base.scss */
 .menu a:hover, a:active, a:focus {
-  background: #fff;
+  background: #D6D6D6;
   color: #3E3E3E;
 }
 
@@ -679,7 +679,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 488, ../sass/base.scss */
 .menu ul li ul li {
-  background: #fff;
+  background: #D6D6D6;
   display: block;
   color: #3E3E3E;
   padding: 10px;
@@ -687,7 +687,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 494, ../sass/base.scss */
 .menu ul li ul li:hover {
-  background: #fff;
+  background: #D6D6D6;
 }
 
 /* line 495, ../sass/base.scss */
