@@ -17,7 +17,7 @@ $bsColGrid3:100% /6;
 $margenGrilla1:100% /12;
 $margenGrilla2:100% /8;
 $margenGrilla3:100% /6;
-$maxWidth:100%;
+$maxWidth:1280px;
 //colores_acordeon
 $dtClrBack:#333333;
 $dtClrBackActive:#424242;
@@ -169,7 +169,7 @@ html ,body{ height: 100%;overflow-x:hidden;margin: 0 auto;padding: 0px;backgroun
         height: 100%;
         max-width:$maxWidth;
         /*background-color: rgba(255,0,0 ,0.2);*/
-        display: table;
+        /*display: table;*/
         clear:both;
         margin: 0 auto;
         padding: 0px;
@@ -765,6 +765,7 @@ font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif;
 .caja_promo{
   fill:$clr_bs_hdr!important;
 }
+
 .flecha_caja_promo{
   fill:darken($clr_bs_hdr , 30% )!important;
 }
