@@ -686,7 +686,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 494, ../sass/base.scss */
 .menu ul li ul li:hover {
-  background: #404040;
+  background: #fff;
 }
 
 /* line 495, ../sass/base.scss */
