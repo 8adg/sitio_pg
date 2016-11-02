@@ -616,12 +616,13 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 518, ../sass/base.scss */
 .logo {
+  padding: 15px 0 10px 15px;
   font-weight: bold;
   font-family: sans-serif; }
 
 /* line 524, ../sass/base.scss */
 .logo img {
-  width: 80px; }
+  width: 90px; }
 
 /* line 528, ../sass/base.scss */
 .logo span {
