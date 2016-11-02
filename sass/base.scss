@@ -364,12 +364,14 @@ right:40px;
 
 .contenido {
 padding: 100px;
+text-align:left;
 }
 
 .contenido p {
   font-size: 1.5em;
 }
 .titulo_rot{
+font:italic 600  'Open Sans', sans-serif;
 font:normal 100 5em 'Roboto', sans-serif;
 text-shadow: 1px 1px 10px rgba(0,0,0, 0.5);
 }
