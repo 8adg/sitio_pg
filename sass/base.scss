@@ -34,6 +34,7 @@ $Fclr_menu_contenidos:#0f335f;
 $Fclr_menu_grilla:#0188c8;
 $Fclr_menu_canal:#0f335f;
 $BckColor:#404040;
+$BckColorprod:#D6D6D6;
 //slider
 //ancho y alto del event del slider
 $eventw:100vw;
@@ -416,7 +417,7 @@ padding:100px 0;
 }
 
 .productos{
-  background:$BckColor ;
+  background:$BckColorprod ;
   min-height: 400px!important;
   margin-top:50px;
 }
