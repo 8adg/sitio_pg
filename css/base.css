@@ -391,13 +391,13 @@ html, body {
 /* line 297, ../sass/base.scss */
 .container-4 {
   overflow: hidden;
-  width: 590px;
+  width: 500px;
   vertical-align: middle;
   white-space: nowrap; }
 
 /* line 304, ../sass/base.scss */
 .container-4 input#search {
-  width: 590px;
+  width: 500px;
   height: 40px;
   background: #D8DEE6;
   border: none;
