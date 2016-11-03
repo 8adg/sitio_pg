@@ -608,8 +608,8 @@ font:normal 100 1em 'Roboto', sans-serif;
 .der {
   float: right; }
 
-/* line 521, ../sass/base.scss */
-.menu ul {
+/* line 522, ../sass/base.scss */
+.topper ul, .menu ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -617,13 +617,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-size: 1vw;
   display: inline-flex; }
 
-/* line 529, ../sass/base.scss */
-.menu ul li {
+/* line 530, ../sass/base.scss */
+.topper ul li, .menu ul li {
   margin: 0;
   padding: 0; }
 
-/* line 533, ../sass/base.scss */
-.menu a {
+/* line 534, ../sass/base.scss */
+.topper a, .menu a {
   text-decoration: none;
   display: inline-block;
   padding: 15px 15px;
@@ -634,12 +634,12 @@ font:normal 100 1em 'Roboto', sans-serif;
   transition: background-color 0.5s ease-out;
   color: #fff; }
 
-/* line 545, ../sass/base.scss */
+/* line 546, ../sass/base.scss */
 .menu a:hover, a:active, a:focus {
   background: #fff;
   color: #3E3E3E; }
 
-/* line 551, ../sass/base.scss */
+/* line 552, ../sass/base.scss */
 .menu ul li ul {
   padding: 0;
   position: absolute;
@@ -657,73 +657,73 @@ font:normal 100 1em 'Roboto', sans-serif;
   -transition: opacity 0.2s;
   z-index: 999; }
 
-/* line 568, ../sass/base.scss */
+/* line 569, ../sass/base.scss */
 .menu ul li ul li {
   background: #fff;
   display: block;
   color: #3E3E3E;
   padding: 10px; }
 
-/* line 574, ../sass/base.scss */
+/* line 575, ../sass/base.scss */
 .menu ul li ul li:hover {
   background: #fff; }
 
-/* line 575, ../sass/base.scss */
+/* line 576, ../sass/base.scss */
 .menu ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible; }
 
-/* line 581, ../sass/base.scss */
+/* line 582, ../sass/base.scss */
 .vivo a {
   color: #8d141c; }
 
-/* line 585, ../sass/base.scss */
+/* line 586, ../sass/base.scss */
 .contenidos a {
   color: #0f335f; }
 
-/* line 589, ../sass/base.scss */
+/* line 590, ../sass/base.scss */
 .grilla a {
   color: #0188c8; }
 
-/* line 593, ../sass/base.scss */
+/* line 594, ../sass/base.scss */
 .canal a {
   color: #0f335f; }
 
-/* line 597, ../sass/base.scss */
+/* line 598, ../sass/base.scss */
 .cont_video {
   min-height: 380px; }
 
-/* line 601, ../sass/base.scss */
+/* line 602, ../sass/base.scss */
 .logo {
   font-weight: bold;
   font-family: sans-serif; }
 
-/* line 607, ../sass/base.scss */
+/* line 608, ../sass/base.scss */
 .logo img {
   padding: 25px 0 10px 15px;
   width: 70px;
   float: right; }
 
-/* line 613, ../sass/base.scss */
+/* line 614, ../sass/base.scss */
 .logo span {
   position: relative;
   top: -48px;
   left: 10px; }
 
-/* line 619, ../sass/base.scss */
+/* line 620, ../sass/base.scss */
 .box_compra {
   display: inline-flex;
   height: 40px;
   width: 98%;
   padding: 30px 0 20px 0; }
 
-/* line 626, ../sass/base.scss */
+/* line 627, ../sass/base.scss */
 .item_cantidad {
   width: 80%;
   height: 40px; }
 
-/* line 631, ../sass/base.scss */
+/* line 632, ../sass/base.scss */
 .item_Quantity {
   border: none;
   width: 100%;
@@ -739,13 +739,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   height: 100%;
   font-size: 14px; }
 
-/* line 648, ../sass/base.scss */
+/* line 649, ../sass/base.scss */
 .item_Quantity input {
   padding: 0px;
   margin: 0 auto;
   border: none; }
 
-/* line 657, ../sass/base.scss */
+/* line 658, ../sass/base.scss */
 .item_add {
   background-color: #3E3E3E;
   color: #fff;
@@ -761,7 +761,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 674, ../sass/base.scss */
+/* line 675, ../sass/base.scss */
 .item_add span {
   font-family: 'gorrasiUI', sans-serif;
   color: #fff;
@@ -774,27 +774,27 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 687, ../sass/base.scss */
+/* line 688, ../sass/base.scss */
 .ui {
   font-family: 'gorrasiUI';
   font-size: 2.5em; }
 
-/* line 692, ../sass/base.scss */
+/* line 693, ../sass/base.scss */
 .color1 {
   color: #fff; }
 
-/* line 696, ../sass/base.scss */
+/* line 697, ../sass/base.scss */
 .usuario {
   padding: 44px 0;
   display: block;
   white-space: nowrap;
   text-align: right; }
 
-/* line 703, ../sass/base.scss */
+/* line 704, ../sass/base.scss */
 .bag {
   font-size: 3em; }
 
-/* line 707, ../sass/base.scss */
+/* line 708, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -7px;
@@ -802,7 +802,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   white-space: nowrap; }
 
-/* line 715, ../sass/base.scss */
+/* line 716, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: -12px;
@@ -811,25 +811,25 @@ font:normal 100 1em 'Roboto', sans-serif;
   /*text-shadow: -1px -1px 3px rgba(0,0,0, 0.5);*/
   color: #aa0000; }
 
-/* line 723, ../sass/base.scss */
+/* line 724, ../sass/base.scss */
 .pos-qt {
   text-align: center;
   padding: 33px 0px; }
 
-/* line 728, ../sass/base.scss */
+/* line 729, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #3E3E3E;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 733, ../sass/base.scss */
+/* line 734, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #3E3E3E;
   position: relative;
   top: 6px; }
 
-/* line 737, ../sass/base.scss */
+/* line 738, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
@@ -838,7 +838,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   width: 50% !important; }
 
 /**** producto***/
-/* line 747, ../sass/base.scss */
+/* line 748, ../sass/base.scss */
 .img_frame {
   width: 200px;
   height: 200px;
@@ -849,7 +849,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   bottom: 0;
   left: 0; }
 
-/* line 758, ../sass/base.scss */
+/* line 759, ../sass/base.scss */
 .prod_cont {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
@@ -862,11 +862,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 771, ../sass/base.scss */
+/* line 772, ../sass/base.scss */
 .prod_cont:hover, .prod_cont:active, .prod_cont:focus {
   background: #DADADA; }
 
-/* line 775, ../sass/base.scss */
+/* line 776, ../sass/base.scss */
 .item_name {
   color: #454545;
   font-weight: 600;
@@ -876,7 +876,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-family: 'PT Sans', sans-serif;
   text-transform: lowercase !important; }
 
-/* line 785, ../sass/base.scss */
+/* line 786, ../sass/base.scss */
 .desc {
   color: #7e7e7e;
   font-size: 15px;
@@ -885,11 +885,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   margin-left: 38px;
   min-height: 70px; }
 
-/* line 794, ../sass/base.scss */
+/* line 795, ../sass/base.scss */
 .desc p {
   padding: 5px; }
 
-/* line 798, ../sass/base.scss */
+/* line 799, ../sass/base.scss */
 .item_price {
   font-weight: 600;
   font-stretch: normal;
@@ -897,13 +897,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   margin: 8px 0 8px; }
 
-/* line 807, ../sass/base.scss */
+/* line 808, ../sass/base.scss */
 .box_compra_tiny {
   display: inline-flex;
   height: 47px;
   width: 163px; }
 
-/* line 813, ../sass/base.scss */
+/* line 814, ../sass/base.scss */
 .item_add_ch {
   font-family: 'gorrasiUI', sans-serif;
   background-color: #ee8d03;
@@ -919,13 +919,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 830, ../sass/base.scss */
+/* line 831, ../sass/base.scss */
 .item_add_ch:hover, .item_add_ch:focus, .item_add_ch:active {
   font-family: 'gorrasiUI', sans-serif;
   color: #000;
   background: rgba(0, 0, 0, 0.2); }
 
-/* line 836, ../sass/base.scss */
+/* line 837, ../sass/base.scss */
 .item_Quantity_ch {
   border: none;
   width: 110px;
@@ -935,25 +935,25 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #454545;
   font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif; }
 
-/* line 846, ../sass/base.scss */
+/* line 847, ../sass/base.scss */
 .custom {
   background: #f7f7f7; }
 
-/* line 851, ../sass/base.scss */
+/* line 852, ../sass/base.scss */
 .caja_promo {
   fill: #ee8d03 !important; }
 
-/* line 855, ../sass/base.scss */
+/* line 856, ../sass/base.scss */
 .flecha_caja_promo {
   fill: #573301 !important; }
 
-/* line 859, ../sass/base.scss */
+/* line 860, ../sass/base.scss */
 .imapromo {
   position: relative;
   z-index: 999;
   top: -400px;
   left: 150px; }
 
-/* line 865, ../sass/base.scss */
+/* line 866, ../sass/base.scss */
 .tope {
   padding-top: 50px; }

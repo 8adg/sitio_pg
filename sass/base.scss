@@ -518,7 +518,8 @@ padding:100px 0;
 
 .der{float: right;}
 
-.menu ul {  
+
+.topper ul, .menu ul {  
   list-style:none;
   margin:0;
     padding:0;
@@ -526,11 +527,11 @@ padding:100px 0;
 font-size: 1vw;
   display:inline-flex;
 }
-.menu ul li {
+.topper ul li , .menu ul li {
   margin:0;
   padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
 }
-.menu a {
+.topper a, .menu a {
 text-decoration: none;
 display: inline-block;
 padding: 15px 15px;
