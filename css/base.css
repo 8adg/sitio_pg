@@ -547,7 +547,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /*--------------------------| slider multi noticias|----------------------------*/
 /* line 464, ../sass/base.scss */
 .topper {
-  background: #002735;
+  background: #2B2B2B;
   min-height: 20px; }
 
 /* line 470, ../sass/base.scss */
@@ -626,7 +626,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 .topper a {
   text-decoration: none;
   display: inline-block;
-  padding: 10px 15px;
+  padding: 5px 15px;
   text-align: center;
   color: #fff; }
 
