@@ -295,8 +295,7 @@ ul li { width: 100%;      }
 
 /*--------------------------| input busqueda|----------------------------*/
 .box-search{
-text-align:center;
-padding:35px 0;
+padding:55px;
 
 }
 
@@ -358,11 +357,13 @@ padding:35px 0;
   outline: none;
   opacity: 1;
   margin-left: -100px;
+  cursor:pointer;
 }
  
 .container-4:hover button.icon:hover{
   background: white;
   color:#232833;
+  cursor:pointer;
 }
 
 
