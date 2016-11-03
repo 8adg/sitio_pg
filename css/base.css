@@ -627,7 +627,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   -moz-transition: background-color 0.5s ease-out;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
-  color: #ee8d03; }
+  color: #fff; }
 
 /* line 540, ../sass/base.scss */
 .menu a:hover, a:active, a:focus {
