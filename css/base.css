@@ -649,7 +649,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 562, ../sass/base.scss */
 .topper a:hover, a:active, a:focus {
-  color: #ee8d03; }
+  text-decoration: true; }
 
 /* line 566, ../sass/base.scss */
 .menu ul li ul {
