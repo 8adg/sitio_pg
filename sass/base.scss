@@ -531,6 +531,8 @@ font-size: 1vw;
   margin:0;
   padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
 }
+
+
 .topper a {
 text-decoration: none;
 display: inline-block;
@@ -559,7 +561,6 @@ color:$clr_bs_menu;
 
 .topper a:hover, a:active, a:focus{
 color:$clr_bs_hdr;
-text-decoration:underline;
 }
 
 .menu ul li ul {
