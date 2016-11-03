@@ -519,7 +519,7 @@ padding:100px 0;
 .der{float: right;}
 
 
-.menu ul {  
+.topper ul, .menu ul {  
   list-style:none;
   margin:0;
     padding:0;
@@ -527,24 +527,11 @@ padding:100px 0;
 font-size: 1vw;
   display:inline-flex;
 }
-.topper ul {  
-  list-style:none;
-  margin:0;
-    padding:0;
- white-space: nowrap;
-font-size: 1vw;
-  display:inline-flex;
-}
-
-.menu ul li {
+.topper ul li , .menu ul li {
   margin:0;
   padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
 }
 
-.topper ul li {
-  margin:0;
-  padding:0; //Ya no necesito el padding, tambien quitare el borde que puse antes.
-}
 
 .topper a {
 text-decoration: none;
@@ -570,6 +557,11 @@ color:#fff;
 .menu a:hover, a:active, a:focus{
 background: #fff;
 color:$clr_bs_menu;
+}
+
+.topper a:hover, a:active, a:focus{
+color:$clr_bs_hdr!important;
+background-color:none!important;
 }
 
 
