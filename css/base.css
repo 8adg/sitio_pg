@@ -801,9 +801,9 @@ font:normal 100 1em 'Roboto', sans-serif;
 .cantidad {
   position: relative;
   top: -12px;
-  font: #ee8d03 normal normal 600 1.25em/150% "Open Sans";
+  font: normal normal 400 1.25em/150% 'Open Sans';
   right: 32px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7); }
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); }
 
 /* line 717, ../sass/base.scss */
 .pos-qt {
