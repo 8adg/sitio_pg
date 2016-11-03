@@ -558,32 +558,31 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 473, ../sass/base.scss */
 .menu {
   background: #3E3E3E;
-  min-height: 50px !important;
   text-align: center; }
 
-/* line 478, ../sass/base.scss */
+/* line 477, ../sass/base.scss */
 .sldr {
   background: #e5e5e5;
   min-height: 375px !important;
   text-align: center; }
 
-/* line 483, ../sass/base.scss */
+/* line 482, ../sass/base.scss */
 .promo {
   text-align: center;
   background: #dadada repeat center url("../img/trama_electro.svg"); }
 
-/* line 488, ../sass/base.scss */
+/* line 487, ../sass/base.scss */
 .promo h2 {
   font: italic 700 2.5em 'Open Sans', sans-serif;
   color: #141414;
   padding: 100px 0; }
 
-/* line 494, ../sass/base.scss */
+/* line 493, ../sass/base.scss */
 .productos {
   background: #D6D6D6;
   min-height: 400px !important; }
 
-/* line 499, ../sass/base.scss */
+/* line 498, ../sass/base.scss */
 .footer {
   background: #333333;
   min-height: 300px !important;
@@ -591,23 +590,24 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-family: 'Roboto',sans-serif;
   font-weight: 300; }
 
-/* line 506, ../sass/base.scss */
+/* line 505, ../sass/base.scss */
 .footer h3 {
   font-family: 'Roboto',sans-serif; }
 
-/* line 510, ../sass/base.scss */
+/* line 509, ../sass/base.scss */
 .bottom {
   background: #043b7b;
   min-height: 50px !important; }
 
-/* line 515, ../sass/base.scss */
+/* line 514, ../sass/base.scss */
 .der {
   float: right; }
 
-/* line 517, ../sass/base.scss */
+/* line 516, ../sass/base.scss */
 .menu ul {
   list-style: none;
   margin: 0;
+  padding: 0;
   white-space: nowrap;
   font-size: 1vw;
   display: inline-flex; }
