@@ -390,7 +390,7 @@ html, body {
 /*--------------------------| input busqueda|----------------------------*/
 /* line 297, ../sass/base.scss */
 .box-search {
-  padding: 55px; }
+  padding: 40px; }
 
 /* line 302, ../sass/base.scss */
 .container-4 {
@@ -553,7 +553,7 @@ font:normal 100 1em 'Roboto', sans-serif;
 /* line 469, ../sass/base.scss */
 .hdr {
   background: #ee8d03;
-  min-height: 150px !important; }
+  min-height: 100px !important; }
 
 /* line 473, ../sass/base.scss */
 .menu {
