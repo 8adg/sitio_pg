@@ -648,9 +648,9 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E; }
 
 /* line 562, ../sass/base.scss */
-.topper a:hover, a:active, a:focus {
+.topper a:hover {
   color: red !important;
-  background-color: none !important; }
+  background-color: transparent !important; }
 
 /* line 568, ../sass/base.scss */
 .menu ul li ul {
