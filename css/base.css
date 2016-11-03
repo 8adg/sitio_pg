@@ -779,17 +779,18 @@ font:normal 100 1em 'Roboto', sans-serif;
 
 /* line 689, ../sass/base.scss */
 .usuario {
+  padding: 44px 0;
   display: block;
   white-space: nowrap;
   text-align: right; }
 
-/* line 695, ../sass/base.scss */
+/* line 696, ../sass/base.scss */
 .bag {
   position: relative;
   top: 50px;
   padding: 0 30px; }
 
-/* line 701, ../sass/base.scss */
+/* line 702, ../sass/base.scss */
 .n_usuario {
   position: relative;
   top: -6px;
@@ -797,7 +798,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   white-space: nowrap; }
 
-/* line 709, ../sass/base.scss */
+/* line 710, ../sass/base.scss */
 .cantidad {
   position: relative;
   top: 35px;
@@ -805,20 +806,20 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   left: -20px; }
 
-/* line 716, ../sass/base.scss */
+/* line 717, ../sass/base.scss */
 .contactos {
   position: relative;
   color: #3E3E3E;
   font: normal 600 0.75em 'Open Sans', sans-serif; }
 
-/* line 721, ../sass/base.scss */
+/* line 722, ../sass/base.scss */
 #iconos_contacto {
   font-size: 1.5em;
   color: #3E3E3E;
   position: relative;
   top: 6px; }
 
-/* line 725, ../sass/base.scss */
+/* line 726, ../sass/base.scss */
 .titulo_buscar {
   position: relative;
   font: normal 400 0.75em "Open Sans", sans-serif !important;
@@ -827,7 +828,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   width: 50% !important; }
 
 /**** producto***/
-/* line 735, ../sass/base.scss */
+/* line 736, ../sass/base.scss */
 .img_frame {
   width: 200px;
   height: 200px;
@@ -838,7 +839,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   bottom: 0;
   left: 0; }
 
-/* line 746, ../sass/base.scss */
+/* line 747, ../sass/base.scss */
 .prod_cont {
   width: 80%;
   font-family: 'Open Sans', sans-serif;
@@ -851,11 +852,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 759, ../sass/base.scss */
+/* line 760, ../sass/base.scss */
 .prod_cont:hover, .prod_cont:active, .prod_cont:focus {
   background: #DADADA; }
 
-/* line 763, ../sass/base.scss */
+/* line 764, ../sass/base.scss */
 .item_name {
   color: #454545;
   font-weight: 600;
@@ -865,7 +866,7 @@ font:normal 100 1em 'Roboto', sans-serif;
   font-family: 'PT Sans', sans-serif;
   text-transform: lowercase !important; }
 
-/* line 773, ../sass/base.scss */
+/* line 774, ../sass/base.scss */
 .desc {
   color: #7e7e7e;
   font-size: 15px;
@@ -874,11 +875,11 @@ font:normal 100 1em 'Roboto', sans-serif;
   margin-left: 38px;
   min-height: 70px; }
 
-/* line 782, ../sass/base.scss */
+/* line 783, ../sass/base.scss */
 .desc p {
   padding: 5px; }
 
-/* line 786, ../sass/base.scss */
+/* line 787, ../sass/base.scss */
 .item_price {
   font-weight: 600;
   font-stretch: normal;
@@ -886,13 +887,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #3E3E3E;
   margin: 8px 0 8px; }
 
-/* line 795, ../sass/base.scss */
+/* line 796, ../sass/base.scss */
 .box_compra_tiny {
   display: inline-flex;
   height: 47px;
   width: 163px; }
 
-/* line 801, ../sass/base.scss */
+/* line 802, ../sass/base.scss */
 .item_add_ch {
   font-family: 'gorrasiUI', sans-serif;
   background-color: #ee8d03;
@@ -908,13 +909,13 @@ font:normal 100 1em 'Roboto', sans-serif;
   -o-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out; }
 
-/* line 818, ../sass/base.scss */
+/* line 819, ../sass/base.scss */
 .item_add_ch:hover, .item_add_ch:focus, .item_add_ch:active {
   font-family: 'gorrasiUI', sans-serif;
   color: #000;
   background: rgba(0, 0, 0, 0.2); }
 
-/* line 824, ../sass/base.scss */
+/* line 825, ../sass/base.scss */
 .item_Quantity_ch {
   border: none;
   width: 110px;
@@ -924,25 +925,25 @@ font:normal 100 1em 'Roboto', sans-serif;
   color: #454545;
   font: normal normal 600 20px/150% 'Open Sans', Helvetica, sans-serif; }
 
-/* line 834, ../sass/base.scss */
+/* line 835, ../sass/base.scss */
 .custom {
   background: #f7f7f7; }
 
-/* line 839, ../sass/base.scss */
+/* line 840, ../sass/base.scss */
 .caja_promo {
   fill: #ee8d03 !important; }
 
-/* line 843, ../sass/base.scss */
+/* line 844, ../sass/base.scss */
 .flecha_caja_promo {
   fill: #573301 !important; }
 
-/* line 847, ../sass/base.scss */
+/* line 848, ../sass/base.scss */
 .imapromo {
   position: relative;
   z-index: 999;
   top: -400px;
   left: 150px; }
 
-/* line 853, ../sass/base.scss */
+/* line 854, ../sass/base.scss */
 .tope {
   padding-top: 50px; }
