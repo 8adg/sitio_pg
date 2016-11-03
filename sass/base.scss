@@ -293,6 +293,74 @@ ul li { width: 100%;      }
 /*-------------------| fin sistema de columnas 8aDG |-------------------------*/
 
 
+/*--------------------------| input busqueda|----------------------------*/
+.container-4{
+  overflow: hidden;
+  width: 590px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.container-4 input#search{
+  width: 590px;
+  height: 40px;
+  background: #D8DEE6;
+  border: none;
+  font-size: 10pt;
+  float: left;
+  color: #fff;
+  padding-left: 15px;
+
+}
+
+.container-4 input#search::-webkit-input-placeholder {
+   color: #434D54;
+}
+ 
+.container-4 input#search:-moz-placeholder { /* Firefox 18- */
+   color: #434D54;  
+}
+ 
+.container-4 input#search::-moz-placeholder {  /* Firefox 19+ */
+   color: #434D54;  
+}
+ 
+.container-4 input#search:-ms-input-placeholder {  
+   color: #434D54;  
+}
+
+.container-4 button.icon{
+
+  border: none;
+  background: #232833;
+  height: 40px;
+  width: 100px;
+  color: #fafafa;
+  opacity: 0;
+  font-size: 10pt;
+ 
+  -webkit-transition: all .55s ease;
+  -moz-transition: all .55s ease;
+  -ms-transition: all .55s ease;
+  -o-transition: all .55s ease;
+  transition: all .55s ease;
+}
+
+.container-4 button.icon span{font: normal normal 600 14px/150% 'Open Sans', sans-serif;}
+
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+  outline: none;
+  opacity: 1;
+  margin-left: -100px;
+}
+ 
+.container-4:hover button.icon:hover{
+  background: white;
+  color:#232833;
+}
+
+
+
 /*--------------------------| slider multi noticias|----------------------------*/
 
 

@@ -18,6 +18,7 @@
 
  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <link rel="stylesheet" href="css/base.css?v=1.0">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -32,7 +33,13 @@
 <div class="col-82"><div class="logo col-6"><div class="col-2"><img src="img/logo.png" alt="Pascual_Gorrasi_logo" align="absmiddle"></div><div class="col-4" style="white-space: nowrap;color:#fff;text-shadow: 1px 1px 5px rgba(0,0,0, 0.7);"><br><br>PASCUAL<br>GORRASSI S.A.</div></div></div>
 <div class="col-84">
 <div class="row">&nbsp;</div>
-<div class="row"><div class="box_compra"><span class="item_cantidad"><input id="input" placeholder="busca tu producto..." class="item_Quantity" type="text"></span><a class="item_add" href="javascript:;"><span>c</span><span class="titulo_buscar">buscar</span></a></div></div>
+<div class="row">
+    <div class="container-4">
+    <input type="search" id="search" placeholder="Buscá tu producto..." onfocus="this.placeholder=''" onblur="this.placeholder='Buscá tu producto...'" />
+    <button class="icon"><i class="fa fa-search"></i><span> buscar</span></button>
+  </div>
+
+</div>
 
 <div class="row col-6">
 <div class="col-2 "><span class="ui" id="iconos_contacto">s</span><a class="link contactos" href="https://www.facebook.com/pascualgorrassisa" target="_blank">seguinos en facebook</a></div>
